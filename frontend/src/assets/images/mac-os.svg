@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <filter id="Mac_OS" x="0" y="0" width="150" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Mac_OS)">
+    <path id="Mac_OS-2" data-name="Mac OS" d="M20,86A29.991,29.991,0,1,1,47.643,44.323,29.991,29.991,0,0,1,20,86Zm0-26.738h0L29.258,72H34L23.126,57.038,22.37,56,34,40H29.258L20,52.736,10.742,40H6L17.629,56,6,72h4.743L20,59.263Z" transform="translate(55 9)" fill="#27ebc1"/>
+  </g>
+</svg>

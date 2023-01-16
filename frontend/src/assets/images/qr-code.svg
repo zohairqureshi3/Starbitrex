@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <g id="QR_Code" data-name="QR Code" transform="translate(-1710 -3686)">
+    <g id="Rectangle_6559" data-name="Rectangle 6559" transform="translate(1710 3686)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="90" height="90" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="89" height="89" rx="9.5" fill="none"/>
+    </g>
+    <g id="jzb00u" transform="translate(1717.5 3693.499)">
+      <path id="XMLID_362_" d="M27.492,7.5H7.5V27.48H27.492Zm-2.4,17.582H9.9V9.9H25.093Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="XMLID_365_" d="M14.862,14.86h9.594v9.59H14.862Z" transform="translate(-2.165 -2.164)" fill="#fff"/>
+      <path id="XMLID_388_" d="M84.136,7.5H64.144V27.48H84.136V7.5Zm-2.4,17.582H66.543V9.9H81.737Z" transform="translate(-16.66 0)" fill="#fff"/>
+      <path id="XMLID_389_" d="M71.506,14.86H81.1v9.59H71.506Z" transform="translate(-18.825 -2.164)" fill="#fff"/>
+      <path id="XMLID_392_" d="M7.5,84.1H27.492V64.12H7.5ZM9.9,66.517H25.093V81.7H9.9V66.517Z" transform="translate(0 -16.653)" fill="#fff"/>
+      <path id="XMLID_393_" d="M14.862,71.479h9.594v9.59H14.862Z" transform="translate(-2.165 -18.817)" fill="#fff"/>
+      <path id="XMLID_394_" d="M40.556,7.542h3.332v3.332H40.556Z" transform="translate(-9.722 -0.012)" fill="#fff"/>
+      <path id="XMLID_395_" d="M53.349,10.845h3.332V7.513H50.017v6.664h3.332Z" transform="translate(-12.505 -0.004)" fill="#fff"/>
+      <path id="XMLID_396_" d="M45.3,16.953h3.332v3.332H45.3Z" transform="translate(-11.117 -2.78)" fill="#fff"/>
+      <path id="XMLID_397_" d="M40.576,25.006v3.332h3.332V21.674H40.576Z" transform="translate(-9.728 -4.169)" fill="#fff"/>
+      <path id="XMLID_398_" d="M50.017,26.394h3.332v3.332H50.017Z" transform="translate(-12.505 -5.557)" fill="#fff"/>
+      <path id="XMLID_399_" d="M54.737,21.674h3.332v3.332H54.737Z" transform="translate(-13.893 -4.169)" fill="#fff"/>
+      <path id="XMLID_400_" d="M45.3,31.114h3.332v3.332H45.3Z" transform="translate(-11.117 -6.945)" fill="#fff"/>
+      <path id="XMLID_401_" d="M54.737,31.114h3.332v3.332H54.737Z" transform="translate(-13.893 -6.945)" fill="#fff"/>
+      <path id="XMLID_402_" d="M7.535,54.716h3.332v3.332H7.535Z" transform="translate(-0.01 -13.887)" fill="#fff"/>
+      <path id="XMLID_403_" d="M10.837,43.867V40.535H7.505V47.2h6.664V43.867Z" transform="translate(-0.001 -9.716)" fill="#fff"/>
+      <path id="XMLID_411_" d="M16.945,49.976h3.332v3.332H16.945Z" transform="translate(-2.778 -12.493)" fill="#fff"/>
+      <path id="XMLID_412_" d="M21.666,54.7v3.332H28.33V54.7H21.666Z" transform="translate(-4.166 -13.881)" fill="#fff"/>
+      <path id="XMLID_413_" d="M26.386,45.255h3.332v3.332H26.386Z" transform="translate(-5.555 -11.104)" fill="#fff"/>
+      <path id="XMLID_414_" d="M21.666,40.535H25v3.332H21.666Z" transform="translate(-4.166 -9.716)" fill="#fff"/>
+      <path id="XMLID_415_" d="M31.106,49.976h3.332v3.332H31.106Z" transform="translate(-6.943 -12.493)" fill="#fff"/>
+      <path id="XMLID_416_" d="M31.106,40.535h3.332v3.332H31.106Z" transform="translate(-6.943 -9.716)" fill="#fff"/>
+      <path id="XMLID_417_" d="M73.589,45.295h3.332v3.332H73.589Z" transform="translate(-19.438 -11.116)" fill="#fff"/>
+      <path id="XMLID_418_" d="M84.974,43.907V40.575H78.31v3.332h6.664Z" transform="translate(-20.826 -9.728)" fill="#fff"/>
+      <path id="XMLID_419_" d="M83.03,50.016h3.332v3.332H83.03Z" transform="translate(-22.215 -12.504)" fill="#fff"/>
+      <path id="XMLID_420_" d="M78.31,54.736h3.332v3.332H78.31Z" transform="translate(-20.826 -13.893)" fill="#fff"/>
+      <path id="XMLID_421_" d="M87.75,45.295h3.332v3.332H87.75Z" transform="translate(-23.603 -11.116)" fill="#fff"/>
+      <path id="XMLID_422_" d="M73.589,78.326h3.332v3.332H73.589Z" transform="translate(-19.438 -20.831)" fill="#fff"/>
+      <path id="XMLID_423_" d="M83.03,83.047h3.332v3.332H83.03Z" transform="translate(-22.215 -22.219)" fill="#fff"/>
+      <path id="XMLID_424_" d="M78.31,87.767h3.332V91.1H78.31Z" transform="translate(-20.826 -23.608)" fill="#fff"/>
+      <path id="XMLID_425_" d="M87.75,78.326h3.332v3.332H87.75Z" transform="translate(-23.603 -20.831)" fill="#fff"/>
+      <path id="XMLID_426_" d="M87.75,87.767h3.332V91.1H87.75Z" transform="translate(-23.603 -23.608)" fill="#fff"/>
+      <path id="XMLID_427_" d="M40.577,59.425h3.332v3.332H40.577Z" transform="translate(-9.729 -15.272)" fill="#fff"/>
+      <path id="XMLID_428_" d="M40.547,68.886v3.332h6.664V68.886H40.547Z" transform="translate(-9.72 -18.054)" fill="#fff"/>
+      <path id="XMLID_429_" d="M49.988,64.165H53.32V67.5H49.988Z" transform="translate(-12.496 -16.666)" fill="#fff"/>
+      <path id="XMLID_430_" d="M59.428,68.886H62.76v3.332H59.428Z" transform="translate(-15.273 -18.054)" fill="#fff"/>
+      <path id="XMLID_431_" d="M47.24,50.551h3.332V43.9H47.24v-.014H43.929V40.555H40.6v3.332h3.311v3.347H40.576v3.332H47.24Z" transform="translate(-9.728 -9.722)" fill="#fff"/>
+      <path id="XMLID_433_" d="M40.606,78.318h3.332V81.65H40.606Z" transform="translate(-9.737 -20.829)" fill="#fff"/>
+      <path id="XMLID_434_" d="M40.576,87.778V91.11H47.24V87.778H40.576Z" transform="translate(-9.728 -23.611)" fill="#fff"/>
+      <path id="XMLID_435_" d="M89.7,58.068V54.736H86.37v3.332H83.059V61.4h6.664V58.068Z" transform="translate(-22.223 -13.893)" fill="#fff"/>
+      <path id="XMLID_483_" d="M87.78,68.9h3.332v3.332H87.78Z" transform="translate(-23.612 -18.058)" fill="#fff"/>
+      <path id="XMLID_485_" d="M64.7,60V60h3.373V56.665H64.746v.006h-.021v-.006H64.7V53.348h3.332V50.016H58.061v3.332h3.311v3.324H54.708V60h6.664v3.332H64.7Z" transform="translate(-13.885 -12.504)" fill="#fff"/>
+      <path id="XMLID_172_" d="M54.708,40.575H64.7v3.332H54.708Z" transform="translate(-13.885 -9.728)" fill="#fff"/>
+      <path id="XMLID_179_" d="M73.32,70.827v-.006h.02V64.171H70.7v-.014H67.365v3.332l-.688.014H63.345v3.31H60.014v.014h-.021v3.326H50.017v6.678h3.332V77.5h6.644v3.332H56.681v3.332h3.332v-.008h3.311V80.823h3.332V77.491H63.324v-.006h.02V74.153h-.02v-.008h.021v-3.31h6.643v3.324h6.664V70.827Z" transform="translate(-12.505 -16.664)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

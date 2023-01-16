@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="266" viewBox="0 0 270 266">
+  <defs>
+    <filter id="Ellipse_47" x="4" y="5" width="220" height="222" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_48" x="87" y="0" width="183" height="183" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_49" x="0" y="91" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-3"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4423" data-name="Group 4423" transform="translate(-253 -4583)">
+    <g transform="matrix(1, 0, 0, 1, 253, 4583)" filter="url(#Ellipse_47)">
+      <ellipse id="Ellipse_47-2" data-name="Ellipse 47" cx="35" cy="36" rx="35" ry="36" transform="translate(79 60)" fill="#27ebc1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 253, 4583)" filter="url(#Ellipse_48)">
+      <circle id="Ellipse_48-2" data-name="Ellipse 48" cx="16.5" cy="16.5" r="16.5" transform="translate(162 55)" fill="#27ebc1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 253, 4583)" filter="url(#Ellipse_49)">
+      <circle id="Ellipse_49-2" data-name="Ellipse 49" cx="12.5" cy="12.5" r="12.5" transform="translate(75 146)" fill="#27ebc1"/>
+    </g>
+  </g>
+</svg>

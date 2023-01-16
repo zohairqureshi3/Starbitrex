@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178" height="177.998" viewBox="0 0 178 177.998">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8e6e1"/>
+      <stop offset="1" stop-color="#27ebc1"/>
+    </linearGradient>
+    <filter id="Ellipse_84" x="0" y="0" width="178" height="177.998" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4592" data-name="Group 4592" transform="translate(-12972.928 8155.073)">
+    <g transform="matrix(1, 0, 0, 1, 12972.93, -8155.07)" filter="url(#Ellipse_84)">
+      <ellipse id="Ellipse_84-2" data-name="Ellipse 84" cx="60.899" cy="60.9" rx="60.899" ry="60.9" transform="translate(24 142.5) rotate(-86)" fill="url(#linear-gradient)"/>
+    </g>
+    <ellipse id="Ellipse_85" data-name="Ellipse 85" cx="45.427" cy="45.426" rx="45.427" ry="45.426" transform="translate(13017 -8114)" fill="#27ebc1"/>
+    <text id="_" data-name="!" transform="translate(13054.431 -8048.561)" fill="#fff" font-size="55" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">!</tspan></text>
+  </g>
+</svg>

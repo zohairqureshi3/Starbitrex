@@ -1,0 +1,9 @@
+export const GET_ORDER = 'GET_ORDER'
+export const GET_USER_ORDER = 'GET_USER_ORDER'
+export const ADD_ORDER = 'ADD_ORDER'
+export const CLEAR_ORDER = 'CLEAR_ORDER'
+export const ORDER_ERROR = 'ORDER_ERROR'
+export const STOP_ORDER = 'STOP_ORDER'
+export const START_ORDER = 'START_ORDER'
+export const ORDER_BOOK = 'ORDER_BOOK'
+export const ORDER_PNL = 'ORDER_PNL';

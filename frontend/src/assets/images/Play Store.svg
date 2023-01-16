@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="150" viewBox="0 0 144 150">
+  <defs>
+    <filter id="Play_Store" x="0" y="0" width="144" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Play_Store)">
+    <path id="Play_Store-2" data-name="Play Store" d="M36.885,27.462,11.059,1.524l32.86,18.894-7.033,7.044ZM4.318,0A4.557,4.557,0,0,0,1.779,4.138V55.862A4.557,4.557,0,0,0,4.318,60L34.346,29.994ZM54.076,26.443l-6.893-4-7.688,7.56,7.688,7.56,7.033-4a4.707,4.707,0,0,0-.14-7.126ZM11.059,58.488l32.86-18.894-7.033-7.044Z" transform="translate(43.22 35)" fill="#27ebc1"/>
+  </g>
+</svg>

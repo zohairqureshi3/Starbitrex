@@ -1,0 +1,5 @@
+export const REGISTER_USER = 'REGISTER_USER'
+export const REGISTER_SUB_ADMIN = 'REGISTER_SUB_ADMIN'
+export const LOGIN_ADMIN = 'LOGIN_ADMIN'
+export const TOGGLE_STATE = 'TOGGLE_STATE'
+export const ERROR_STATE = 'ERROR_STATE'

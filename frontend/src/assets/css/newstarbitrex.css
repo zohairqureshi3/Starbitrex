@@ -1,0 +1,5398 @@
+.batton {
+  background-image: url("../images/batton.svg");
+  height: 500px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.header-padding {
+  padding-top: 70px;
+}
+
+.padding50 {
+  padding-top: 50px;
+}
+
+.batton.connect-device {
+  height: 100vh !important;
+  background-size: cover !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ================ header ========= */
+.header-navbar-collapse-icon {
+  justify-content: center;
+}
+
+.header-navbar-collapse-icon .nav-link {
+  font-size: 27px !important;
+}
+
+.header-navbar-collapse-icon .nav-link svg {
+  width: 33px;
+}
+
+.header1 .header-navbar-collapse-icon .nav-link.active {
+  background: rgba(202, 209, 210, 0.15);
+  border-bottom: 2px solid rgba(196, 196, 196, 1) !important;
+}
+
+.header1 .header-navbar-collapse-icon .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.header .header1 .header-trade-dd {
+  display: unset !important;
+}
+
+.header1 .header-navbar-collapse-icon .nav-link:hover {
+  background: rgba(202, 209, 210, 0.15);
+  border-bottom: 2px solid rgba(196, 196, 196, 1) !important;
+}
+
+.header2 .navbar-nav .nav-link {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.navbar-nav .nav-link-btn {
+  background-color: rgba(18, 138, 116, 1);
+}
+
+.slider-current-grey {
+  background-color: rgba(196, 196, 196, 0.04);
+}
+
+.header2 .header-navbar-collapse-icon2 .nav-link {
+  font-size: 27px !important;
+}
+
+.header2 .navbar-nav .nav-link.active {
+  color: rgba(18, 138, 116, 1);
+  background: rgba(202, 209, 210, 0.15);
+  border-bottom: 2px solid rgba(196, 196, 196, 1) !important;
+}
+
+.header2 .header-navbar-collapse-icon .nav-link:hover {
+  background: rgba(202, 209, 210, 0.15);
+  border-bottom: 2px solid rgba(196, 196, 196, 1) !important;
+  color: rgba(18, 138, 116, 1) !important;
+}
+
+.header-back-btn {
+  width: 20px !important;
+}
+
+.price-chart-img {
+  padding: 80px 0;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.price-chart-img img {
+  height: 185px;
+}
+
+.market-trend-orbtx h1 {
+  margin-bottom: 50px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-white2 {
+  color: #fff !important;
+  position: relative;
+  left: 260px;
+}
+
+.text-white3 {
+  color: #fff !important;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.market-trend-orbtx {
+  text-align: center;
+}
+
+.text-gray {
+  color: #797980 !important;
+}
+
+.trade-anyway {
+  position: relative;
+}
+
+.trade-anyway-content {
+  position: absolute;
+  max-width: 550px;
+  right: -240px;
+  top: 150px;
+}
+
+.device-services {
+  padding-top: 70px;
+}
+
+.trade-anyway-content p {
+  padding-top: 15px;
+}
+
+.deposit-buy-exchange-btns {
+  display: flex;
+  padding: 15px 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.deposit-buy-exchange-btns .btn {
+  width: 75px;
+  color: #fff;
+  border: 1.5px solid rgba(18, 138, 116, 0.27);
+  margin: 0 3px;
+  font-size: 12px;
+}
+
+.text-white-light {
+  color: rgba(255, 255, 255, 0.46) !important;
+}
+
+.buy-and-sell {
+  background-color: #13141c;
+  padding-top: 15px;
+}
+
+.important-faqs {
+  padding: 110px 52px 52px 34px;
+}
+
+.important-faqs h3 {
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.important-faqs-content p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.deposit-col {
+  background-color: rgba(19, 20, 28, 0.8);
+  height: 100%;
+}
+
+/**/
+.deposit .deposit-col label {
+  margin: 0 0 10px;
+}
+
+.deposit-dropdown button {
+  width: 400px;
+  max-width: 100%;
+  padding: 12px;     
+  background: #2d3440;
+}
+.deposit-dropdown button:hover, .deposit-dropdown button:active {
+  width: 400px;
+  max-width: 100%;
+  padding: 12px;     
+  background-color: #2d3440 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.deposit-dropdown button p {
+  margin: 0;
+}
+
+.dd-arrow {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.deposit-dropdown .dropdown-toggle::after {
+  display: none !important;
+}
+
+.deposit-dropdown .coin-name {
+  color: #ffc700;
+  font-weight: 700;
+}
+
+.deposit-dropdown .coin-details .detail {
+  padding-right: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.deposit-dropdown .dropdown-menu.show {
+  width: 400px;
+  max-width: 100%;
+  background-color: #0c0d14;
+}
+
+.deposit-dropdown .dropdown-item:hover {
+  background-color: #13141c !important;
+  cursor: pointer;
+}
+
+.d-items {
+  padding-right: 12px;
+}
+
+.d-items p:nth-child(1) {
+  color: #fff;
+  font-weight: 700;
+}
+
+.d-items p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.83);
+  font-weight: 300;
+}
+
+.d-items p {
+  margin: 0;
+}
+
+.deposit-coin h2 {
+  margin-bottom: 33px;
+}
+
+.deposit-coin2 h2 {
+  margin-bottom: 33px;
+}
+
+.deposit-coin3 h2 {
+  margin-bottom: 33px;
+}
+
+.dropdown.deposit-dropdown {
+  margin-bottom: 70px;
+}
+
+.deposit-notselected-coin p {
+  padding: 10px 32px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.deposit-notselected-coin p:hover {
+  cursor: pointer;
+}
+
+.deposit-selected-coin p {
+  margin: 0;
+  color: #ffc700;
+  border: 1px solid #ffc700;
+  width: 97px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-wallet {
+  background-color: #0c0d14;
+  border-radius: 19px;
+  width: max-content;
+  max-width: 100%;
+  padding: 11px 23px;
+}
+
+.address-wallet p {
+  color: #765f0f;
+  margin: 0;
+  text-decoration: underline;
+  overflow: hidden;
+}
+
+.code-address-wallet {
+  margin-bottom: 80px;
+}
+
+.spot-account p {
+  margin-bottom: 30px;
+}
+
+.spot-account-dd button {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(30, 31, 40, 0.5);
+  color: #fff;
+}
+
+.spot-account-dd .dropdown-menu.show {
+  width: 400px;
+  max-width: 100%;
+  background-color: #0c0d14;
+}
+
+.spot-account-dd button:hover {
+  color: #fff !important;
+}
+
+.spot-account-dd .dropdown-item:hover {
+  background-color: #13141c !important;
+  cursor: pointer;
+}
+
+.spot-account-dd .dropdown-item {
+  color: #fff;
+}
+
+.deposit-coin {
+  padding: 33px 12px 0 100px;
+}
+
+/* .deposit-coin2 {
+  padding: 33px 12px 0 100px;
+} */
+
+/* .deposit-coin3 {
+  padding: 33px 12px 0 100px;
+} */
+
+.qr-image {
+  margin-bottom: 30px;
+}
+
+.welcomeback-page {
+  max-width: 1708px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.welcomeback-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcomeback {
+  background-image: url("../images/FramePassword2.svg");
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 160px);
+  text-align: center;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.welcomeback .orbtx-logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.welcomeback h1 {
+  margin-bottom: 30px;
+}
+
+.welcomeback h5 {
+  margin-bottom: 100px;
+}
+
+.password-input-field {
+  margin-bottom: 50px;
+}
+
+.password-input-field div {
+  position: relative;
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+}
+.password-input-field div svg{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: #fff;
+}
+
+.password-input-field input {
+  width: 420px;
+  max-width: 100%;
+  background-color: rgba(19, 20, 28, 1);
+  height: 54px;
+  border: 0;
+  text-align: center;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+.password-input-field input:focus-visible{
+  outline: none;
+}
+
+.password-input-field img {
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  left: 20px;
+}
+
+.enter-btn {
+  padding: 16px 12px;
+  width: 250px;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.enter-btn:hover {
+  background-color: #128a74 !important;
+  color: #fff !important;
+}
+
+.custom-support-icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 120px 12px 0 12px;
+}
+
+.custom-support-icons img {
+  width: 30px;
+}
+
+.portfolio-img {
+  position: relative;
+}
+
+.portfolio-content {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.portlofio-options {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 220px;
+}
+
+.portlofio-options .option {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portlofio-options .option .btn {
+  background: #128a74;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.portfolio-details {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1720px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 50px 12px 30px 12px;
+}
+
+.portfolio-details .detail {
+  min-width: 19%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.portfolio-details .detail.purple {
+  background: #7651c4;
+}
+.portfolio-details .detail.green {
+  background: #40b06c;
+}
+.portfolio-details .detail.blue {
+  background: #3a97ce;
+}
+.portfolio-details .detail.dark {
+  background: #081724;
+  border: 2px solid #213550;
+}
+
+.portfolio-details .detail p {
+  font-size: 24px;
+}
+
+.portfolio-details .detail h3 {
+  color: #fff;
+}
+
+.portfolio-coin div p{
+  font-weight: bold;
+}
+.portfolio-coin div p:nth-child(2) {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/**/
+
+.portfolio-datatable {
+  margin: 20px 50px;
+  border: 2px solid #213550;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.portfolio-datatable .top-heading {
+    height: 90px;
+    border-bottom: 2px solid #213550;
+    padding: 25px 15px;
+}
+.portfolio-datatable .top-heading .cur-tag{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+.portfolio-datatable .top-heading .cur-small-tag{
+  display: block;
+  background-color: #1b234d;
+  color: #d8388c;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.portfolio-datatable .rdt_TableHeadRow {
+  border-bottom-color: #213550;
+  border-width: 2px;
+  min-height: 70px;
+}
+.portfolio-datatable .rdt_TableRow {
+  border: none !important;
+  min-height: 70px;
+}
+.portfolio-datatable .rdt_Pagination {
+  border-top-color: #213550;
+  border-width: 2px;
+}
+.portfolio-datatable .rdt_TableCol_Sortable > div {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.portfolio-datatable .rdt_TableCol:first-of-type, .portfolio-datatable .rdt_TableCell:first-of-type {
+  min-width: 243px;
+}
+.portfolio-datatable .rdt_TableCol, .portfolio-datatable .rdt_TableCell {
+    min-width: 215px;
+}
+.portfolio-datatable .table-button .trade-button {
+  text-align: center;
+  border-radius: 10px;
+  color: #40b06c;
+  background-color: #10142a;
+  padding: 10px;
+  min-width: 100px;
+  transition: all ease-in-out 0.2s;
+}
+.portfolio-datatable .table-button .trade-button:hover{
+  background-color: #1b234d;
+  color: #d8388c;
+  min-width: 140px;
+  transition: all ease-in-out 0.2s;
+}
+.portfolio-datatable .table-button .trade-button:active{
+  border: none;
+}
+.portfolio-datatable .table-button .trade-button:active:hover{
+  border: none;
+}
+.portfolio-datatable #cell-2-undefined, .portfolio-datatable #cell-3-undefined, .portfolio-datatable #cell-4-undefined, .portfolio-datatable #cell-5-undefined, .portfolio-datatable #cell-6-undefined, .portfolio-datatable #cell-7-undefined{
+  justify-content: center;
+}
+.portfolio-datatable .rdt_TableCol > div {
+  justify-content: center;
+}
+.portfolio-datatable select {
+  margin: 0px 0px 0 10px;
+}
+
+
+/**/
+
+
+.backup-complete {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backup-complete h1 {
+  margin-bottom: 25px;
+}
+
+.backup-complete .page-content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.backup-options {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.backup-options .option {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+.backup-options .option .btn {
+  background: linear-gradient(270.06deg,
+      #128a74 -4.31%,
+      #19b497 39.37%,
+      #56c6b1 101.85%);
+  color: #000;
+  border: 0;
+  padding: 12px;
+}
+
+.createpassword-orbtx {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps .step span {
+  border: 2px solid rgba(255, 255, 255, 0.31);
+  border-radius: 50%;
+  padding: 6px 12px;
+}
+
+.step-line-border {
+  border: 2px solid rgba(96, 97, 103, 1);
+  border-style: groove;
+  width: 150px;
+  height: 7px;
+}
+
+.createpassword-orbtx .steps {
+  display: flex;
+  max-width: 650px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.createpassword-orbtx .page-content {
+  text-align: center;
+}
+
+.createpassword-orbtx .page-content h1 {
+  margin-bottom: 25px;
+}
+
+.createpassword-orbtx .type-password input {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgba(196, 196, 196, 0.02);
+  border: 0;
+  padding-left: 20px;
+  height: 50px;
+  color: #fff;
+}
+
+.createpassword-orbtx .type-password {
+  margin-bottom: 100px;
+}
+
+.next-btn {
+  color: #fff;
+  border: 2px solid rgba(25, 180, 151, 1);
+  border-radius: 24px;
+  padding: 12px 12px;
+  width: 180px;
+}
+
+.next-btn:hover {
+  color: #fff;
+  background-color: #128a74;
+}
+
+.backup-modals .modal-content {
+  background-color: #13141c;
+}
+
+.backup-modals .modal-header {
+  border-bottom: 0;
+}
+
+.backup-modals .btn-close {
+  background: transparent url("../images//modal-close-btn.svg") center/2em auto no-repeat !important;
+}
+
+.backup-modals .modal-body {
+  text-align: center;
+}
+
+.unlock-wallet .modal-body img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.unlock-wallet .modal-body h2 {
+  margin-bottom: 50px;
+}
+
+.unlock-wallet .modal-body input {
+  background: rgba(202, 209, 210, 0.04);
+  border-radius: 6px;
+  border: 0;
+  height: 40px;
+  width: 300px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.secret-phrase img {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.secret-phrase h2,
+.secret-phrase p {
+  margin-bottom: 30px;
+}
+
+.secret-phrase .checkbox-div {
+  text-align: left !important;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+
+.back-next-btns {
+  margin-bottom: 50px;
+}
+
+.back-btn {
+  background-color: rgba(205, 205, 205, 0.07) !important;
+  color: rgba(205, 205, 205, 0.29) !important;
+  border: 0 !important;
+  margin-right: 50px;
+}
+
+.additional-security {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+.additional-security h1 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.light-green-bg {
+  background: linear-gradient(270.06deg,
+      #128a74 -4.31%,
+      #19b497 39.37%,
+      #56c6b1 101.85%);
+  padding: 0 10px;
+}
+
+.auto-lock .auto-lock-content h2 {
+  margin-bottom: 15px;
+}
+
+.auto-lock .auto-lock-content h2 span {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 0 10px;
+  color: #000;
+}
+
+.auto-lock .auto-lock-content p {
+  margin-bottom: 40px;
+}
+
+.auto-lock .auto-lock-content {
+  margin-left: 50px;
+}
+
+.auto-lock {
+  max-width: 1440px;
+  width: 100%;
+  background: rgba(19, 20, 28, 0.62);
+  border-radius: 200.5px;
+  padding: 90px 0 90px 100px;
+}
+
+.connect-devices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+}
+
+.connect-devices h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.connect-devices .connect {
+  background-color: #13141c;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.connect-devices .connect .icon-shade {
+  background-color: #282930;
+  width: 250px;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-devices .connect .icon img {
+  width: 70px;
+}
+
+.connect-devices .connect .icon2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.connect-devices .connect .content-and-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.connect-devices .connect .content {
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.connect-device-btn {
+  color: #13141c;
+  background: linear-gradient(270.06deg,
+      #128a74 -4.31%,
+      #19b497 39.37%,
+      #56c6b1 101.85%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  width: 150px;
+}
+
+.exchange-crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+}
+
+.batton-opacity {
+  opacity: 0.2;
+}
+
+.crypto-have {
+  background-color: #13141c;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crypto-have-dropdown .dropdown-toggle {
+  display: flex;
+  align-items: flex-end;
+}
+
+.crypto-have-dropdown .dd-coin-img {
+  z-index: 1;
+}
+
+.crypto-have-dropdown .dd-coin-img img {
+  width: 50px;
+  height: 50px;
+}
+
+.crypto-have-dropdown .dd-coin-name {
+  padding: 7px 60px 7px 27px;
+  margin-left: -20px;
+  background: #2d3440;
+  border-radius: 31px;
+  position: relative;
+  width: 140px;
+}
+
+.crypto-have-dropdown .dd-coin-name::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.4em solid;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.crypto-have-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.crypto-fields-dd input {
+  background-color: #2d3440;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+.crypto-have h3 {
+  padding-right: 20px;
+  font-weight: 400;
+}
+
+.exchange-fonticon {
+  color: #fff;
+  font-size: 20px;
+  transform: rotate(90deg);
+}
+
+.exchange-fonticon.withdrawal {
+  transform: unset !important;
+}
+
+.min-half-max-btns {
+  background-color: #13141c;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.min-half-max-btns .btn {
+  color: #fff;
+  width: 33.3%;
+  border-right: 1px solid #fff;
+}
+
+.crypto-fields-dd {
+  margin-bottom: 30px;
+}
+
+.min-half-max-btns {
+  margin-bottom: 30px;
+}
+
+.para-minimum {
+  margin-bottom: 50px !important;
+}
+
+.enter-btn2 {
+  padding: 12px 12px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.enter-btn2:hover {
+  background-color: #128a74;
+  color: #fff;
+}
+.enter-btn2:active {
+  background-color: #128a74 !important;
+  color: #fff !important;
+}
+
+.go-home-btn {
+  padding: 12px 12px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #128a74;
+  color: #fff;
+}
+
+.go-home-btn:hover {
+  color: #fff;
+}
+
+.withdrawal-crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+}
+
+.withdrawal-crypto h1 {
+  margin-bottom: 70px;
+}
+
+.withdraw-details .modal-content {
+  position: relative;
+  background: rgba(11, 12, 20);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.withdraw-details .modal-content::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url("../images/batton.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.withdraw-details .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  z-index: 9;
+}
+
+.withdraw-details .btn-close {
+  background: transparent url("../images/modal-close-btn2.svg") center/2em auto no-repeat !important;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+.withdraw-form-details .text-and-feild {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.withdraw-form-details .text-and-feild input {
+  width: 300px;
+  border: 0;
+  background: rgba(196, 196, 196, 0.1);
+  color: #fff;
+  height: 30px;
+}
+
+.withdraw-btn {
+  border: 2px solid #128a74;
+  color: #fff;
+  padding: 12px 30px;
+}
+
+.withdraw-btn:hover {
+  background-color: #128a74;
+  color: #fff;
+}
+
+.withdraw-details .modal-body {
+  padding: 150px 16px;
+  z-index: 9;
+}
+
+.choose-payment-syatem h2 {
+  margin-bottom: 15px;
+}
+
+.choose-payment-syatem h5 {
+  margin-bottom: 30px;
+}
+
+.choose-payment-syatem .withdraw-btn {
+  margin-top: 50px;
+}
+
+.trade-page-dd button {
+  display: flex;
+  align-items: center;
+}
+
+.trade-page-dd .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.5em solid;
+  border-right: 0.5em solid transparent;
+  border-bottom: 0;
+  border-left: 0.5em solid transparent;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.trade-page-dd .dropdown-menu.show {
+  background-color: #13141c;
+}
+
+.trade-page-dd .dropdown-item {
+  color: #fff !important;
+}
+
+.trade-page-dd .dropdown-item:hover {
+  background-color: #0c0d14;
+}
+
+.trade-spot-transfer {
+  padding: 50px;
+}
+
+.trade-spot-transfer h5 {
+  color: #128a74;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.trade-spot-transfer .nav-item .nav-link.active {
+  color: #128a74;
+  background: transparent !important;
+}
+
+.trade-spot-transfer .nav-tabs {
+  border-bottom: 0 !important;
+}
+
+.trade-spot-transfer .nav-item .nav-link {
+  border: 0;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.trade-spot-transfer .tabs-transfer {
+  justify-content: space-between;
+}
+
+.tabs-transfer .transfer {
+  color: rgb(255, 255, 255, 0.6);
+  padding-top: 8px;
+}
+
+.avdl-usdt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leverageEx {
+  background-color: #13141c;
+  color: #128a74;
+  font-weight: bold;
+}
+
+.custom-form-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  justify-content: space-between;
+  width: 400px;
+  max-width: 100%;
+}
+
+.custom-form-field input {
+  background-color: transparent;
+  border: 0;
+  margin: 0 10px;
+  text-align: right;
+  color: #fff;
+}
+
+.custom-form-field input:focus-visible {
+  outline: unset;
+}
+
+.price-amount {
+  margin-bottom: 30px;
+}
+
+.trade-spot-range-slider {
+  margin-bottom: 50px !important;
+}
+
+.buy-btc-btn {
+  background-color: #128a74;
+  color: #fff;
+  width: 200px;
+  padding: 12px 12px;
+}
+
+.sell-btc-btn {
+  background-color: #db3e3e;
+  color: #fff;
+  width: 200px;
+  padding: 12px 12px;
+}
+
+.buy-sell-btc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.trade-spot-table tr th {
+  width: 33.3%;
+}
+
+.trade-spot-table tr th:nth-child(2) {
+  text-align: center;
+}
+
+.trade-spot-table tr th:nth-child(3) {
+  text-align: right;
+}
+
+.trade-spot-table tr td:nth-child(2) {
+  text-align: center;
+}
+
+.trade-spot-table tr td:nth-child(3) {
+  text-align: right;
+}
+
+.trade-sport-market input {
+  background-color: rgb(43, 49, 57);
+  border: 0;
+  color: #fff;
+  width: 100%;
+  padding-left: 30px;
+  border-radius: 5px;
+}
+
+.trade-sport-market input:focus-visible {
+  outline: 0;
+}
+
+.trade-sport-market .search-box {
+  position: relative;
+}
+
+.trade-sport-market .search-box .search {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+.trade-sport-market .slick-slide {
+  text-align: center;
+}
+
+.trade-sport-market .slick-prev {
+  left: -20px;
+}
+
+.trade-sport-market .slick-next {
+  right: -20px;
+}
+
+.buy-btc,
+.sell-btc {
+  padding: 0 12px;
+}
+
+.transactions-page .transactions-heading {
+  padding-left: 50px;
+}
+
+.transactions-page .transactions-heading-div {
+  margin-bottom: 80px;
+}
+
+.transactions-page .transactions-icon {
+  width: 90px;
+}
+
+.transactions-btns {
+  display: flex;
+  background-color: #0c0d14;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.transactions-btns .btn {
+  color: #fff;
+  font-weight: 400;
+  width: 100%;
+  border-right: 1px solid #c4c4c4;
+}
+
+.transactions-btns .btn:hover {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.all-assets-dd .dropdown-toggle::after,
+.all-types-dd .dropdown-toggle::after {
+  margin-left: 20px;
+}
+
+.all-assets-dd button,
+.all-types-dd button {
+  background-color: #0c0d14;
+  border-radius: 10px;
+}
+
+.all-types-dd .dropdown-menu,
+.all-assets-dd .dropdown-menu {
+  background-color: #0c0d14;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.all-types-dd .dropdown-menu a,
+.all-assets-dd .dropdown-menu a {
+  color: #fff;
+}
+
+.transcations-accord-item {
+  border: 0;
+  background-color: unset !important;
+}
+
+.transcations-accord-item .accordion-button {
+  width: 100%;
+  background: #0c0d14;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 45px;
+}
+
+.transcations-accord-item .accordion-button:hover {
+  background-color: rgb(12, 13, 20, 0.7);
+}
+
+.transcations-accord-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.transcations-accord-content .content {
+  display: flex;
+  align-items: center;
+}
+
+.transcations-accord-content .content img {
+  width: 50px;
+  height: 50px;
+}
+
+.transcations-accord-item .accordion-button::after {
+  margin-left: 50px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.transcations-accord-item .accordion-collapse.show {
+  background-color: rgb(19, 20, 28);
+}
+
+.transcations-accord-item .accordion-body {
+  color: #fff;
+}
+
+.transcations-dd button {
+  width: 100%;
+  background: #0c0d14;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 45px;
+}
+
+.transcations-dd button:hover {
+  background-color: rgb(12, 13, 20, 0.7);
+}
+
+.transcations-dd .transcations-dd-content .content {
+  display: flex;
+  align-items: center;
+}
+
+.transcations-dd .transcations-dd-content .content img {
+  width: 50px;
+  height: 50px;
+}
+
+.transcations-dd .transcations-dd-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transcations-dd .transcations-dd-content .dd-icon:after {
+  display: inline-block;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.6em solid;
+  border-right: 0.6em solid transparent;
+  border-bottom: 0;
+  border-left: 0.6em solid transparent;
+  margin-left: 50px;
+}
+
+.transcations-dd .dropdown-toggle::after {
+  display: none;
+}
+
+.text-green {
+  color: #128a74 !important;
+}
+
+.text-green-bg {
+  background-color: #128a74 !important;
+}
+
+.all-assets-types {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.send-receive-crypto .icon-symbol {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.send-receive-crypto .slick-slide.slick-active.slick-current .icon-symbol {
+  padding: 10px 0;
+}
+
+.send-receive-crypto .icon-symbol p {
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.send-receive-container {
+  max-width: 1800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.searchbox-input-fleid {
+  position: absolute;
+  left: 40px;
+  top: 0;
+  height: 100%;
+  background-color: rgba(17, 18, 25, 1);
+  z-index: 99999999999999;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 12px;
+}
+
+.searchbox-input-fleid input {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 11.5px;
+  border: 0;
+  padding: 10px 12px;
+  color: #fff;
+}
+
+.searchbox-input-fleid input:focus-visible {
+  outline: unset;
+}
+
+.slider-search-container {
+  background-color: rgba(17, 18, 25, 1);
+  padding: 0 40px 0 80px;
+  position: relative;
+}
+
+.activity-cion-search-box {
+  position: absolute;
+  left: 0;
+  height: calc(100%);
+  background-color: #0f1015;
+  padding: 10px 12px 0 12px;
+  border-bottom: 3px solid #fff;
+}
+
+.activity-cion-search-box svg:hover {
+  cursor: pointer;
+}
+
+.send-receive-crypto .crypto-container {
+  padding: 60px 0;
+  position: relative;
+}
+
+.send-receive-crypto .crypto-container::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url("../images/batton.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  z-index: -1;
+}
+
+.send-receive-crypto .crypto-container img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.send-receive-crypto .crypto-container h1 {
+  margin-bottom: 30px;
+}
+
+.crypto-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crypto-btns button h5 {
+  margin: 0;
+  color: #fff;
+}
+
+.crypto-btns button {
+  background-color: rgba(226, 176, 0, 1);
+  width: 200px;
+  border-radius: 0;
+  margin: 0 25px;
+}
+
+.crypto-btns button:hover {
+  opacity: 0.9;
+}
+
+.send-receive-crypto h3 {
+  color: rgba(226, 176, 0, 1);
+  padding: 30px 0;
+}
+
+.text-yellow {
+  color: rgba(255, 199, 0, 1) !important;
+}
+
+.crypto-bg-class .modal-header {
+  padding: 0;
+  z-index: 9;
+  border-bottom: 0;
+}
+
+.receive-crypto img {
+  margin-bottom: 25px;
+}
+
+.receive-crypto p {
+  margin-bottom: 15px;
+}
+
+.receive-crypto input {
+  border: 0;
+  background: #090a0e;
+  text-align: center;
+  margin-bottom: 25px;
+  width: 400px;
+  padding: 4px 12px;
+}
+
+.crypto-bg-class .modal-body {
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.receive-crypto .input-icon {
+  position: relative;
+}
+
+.receive-crypto .input-icon {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.receive-crypto .input-icon svg {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+.crypto-bg-class .btn-close {
+  background: transparent url("../images/modal-close-btn2.svg") center/2em auto no-repeat !important;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+.crypto-bg-class .modal-content {
+  position: relative;
+  background-color: #0c0d14;
+}
+
+.crypto-bg-class .modal-content::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background-image: url("../images/crypto-bg2.svg");
+  background-repeat: no-repeat;
+}
+
+.send-crypto-content {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.send-crypto-content img {
+  margin-bottom: 40px;
+}
+
+.send-crypto-content .input-qrcode {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.send-crypto-content .input-qrcode input {
+  background-color: rgba(24, 25, 33, 1);
+  border: 0;
+  width: 100%;
+  padding: 6px 15px;
+}
+
+.send-crypto-content .input-qrcode svg {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.two-input-feild {
+  margin-bottom: 50px;
+}
+
+.two-input-feild .first-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(252, 212, 1, 1);
+}
+
+.two-input-feild .first-input input {
+  background-color: transparent;
+  border: 0;
+}
+
+.two-input-feild .first-input input:focus-visible {
+  outline: 0;
+}
+
+.two-input-feild .first-input button {
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.41) !important;
+}
+
+.send-crypto-content .send-btn3 {
+  font-size: 13px;
+  color: #fff;
+  border: 1px solid rgba(255, 230, 0, 1);
+  width: 150px;
+  padding: 12px 12px;
+  margin-bottom: 80px;
+}
+
+.send-crypto-content .send-btn3:hover {
+  background-color: rgba(255, 230, 0, 1);
+  color: #000;
+}
+
+.send-crypto-content .content {
+  padding: 0 20px;
+}
+
+.send-crypto-content .content p {
+  font-size: 12px;
+  color: rgba(196, 196, 196, 0.36);
+}
+
+.send-crypto-content .content .con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-crypto-content .content .con div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+
+.send-crypto-content .content .con div:nth-child(2) p:nth-child(1) {
+  margin-right: 30px !important;
+}
+
+.crypto-success-modal img {
+  margin-bottom: 60px;
+}
+
+.crypto-success-modal h3 {
+  margin-bottom: 65px;
+  font-weight: 400;
+}
+
+.crypto-success-modal img {
+  width: 70px;
+}
+
+.personalize-company h1 {
+  font-weight: 300 !important;
+  margin-bottom: 20px;
+}
+
+.personalize-company h2 {
+  margin-bottom: 30px;
+}
+
+.personalize-custom-container {
+  max-width: 1412px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.personalize-accor-dd button {
+  background-color: rgba(9, 10, 17, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  border-radius: 30.5px;
+  padding: 6px 24px;
+}
+
+.personalize-accor-dd .dd-data {
+  display: flex;
+  align-items: center;
+}
+
+.personalize-accor-dd .dd-data img {
+  width: 35px;
+  height: 35px;
+}
+
+.personalize-accor-dd .dd-data p {
+  margin-left: 30px;
+}
+
+.use-default-btn {
+  background-color: rgba(18, 138, 116, 1);
+  color: #fff;
+  margin-bottom: 60px;
+  width: 250px;
+  border-radius: 0;
+}
+
+.use-default-btn:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.personalize-accor-dropdown {
+  position: relative;
+}
+
+.dropdown.personalize-accor-dd {
+  position: absolute;
+  right: 150px;
+  z-index: 999;
+  top: 20px;
+}
+
+.assets-orbtx h1 {
+  color: #128a74;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.assets-orbtx .paras {
+  margin-bottom: 100px;
+}
+
+.assets-orbtx .paras p {
+  color: #fff;
+  font-weight: 300;
+  margin: 0;
+}
+
+.assets-orbtx-container {
+  max-width: 1682px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.assets-orbtx-container .search-input {
+  position: relative;
+}
+
+.assets-orbtx-container .search-input input {
+  background: #0c0d14;
+  border-radius: 30.5px;
+  border: 0;
+  padding: 10px 10px 10px 50px;
+  color: #fff;
+  width: 300px;
+}
+
+.assets-orbtx-container .search-input .search {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #c4c4c4;
+}
+
+.assets-orbtx-container .search-input input:focus-visible {
+  outline: unset;
+}
+
+.show-all-dd button {
+  border-radius: 30.5px;
+  padding: 6px 24px;
+}
+
+.show-all-dd .dropdown-toggle::after {
+  margin-left: 50px;
+}
+
+.assets-dropdown {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.three-dots .dropdown-toggle::after {
+  display: none;
+}
+
+.three-dots img {
+  width: 7px;
+}
+
+.three-dots .three-dots-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.three-dots button {
+  background: #0c0d14;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.assets-btns {
+  display: flex;
+  align-items: center;
+}
+
+.assets-btns .btn {
+  color: #fff;
+  background-color: #0f1015;
+  border-right: 1px solid #c4c4c4;
+  flex: 1;
+  white-space: normal;
+}
+
+.assets-btns .btn:hover {
+  background-color: rgba(15, 16, 21, 0.5) !important;
+}
+
+.assets-btns {
+  padding: 6px 0;
+  width: 100%;
+}
+
+.assets-btns-dd .btn {
+  background-color: #191c22 !important;
+  height: 38px;
+}
+
+.assets-btn-dd {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown.assets-btns-dd .dropdown-toggle::after {
+  border-top: 0.4em solid;
+  border-right: 0.4em solid transparent;
+  border-left: 0.4em solid transparent;
+}
+
+.transactions-page .rdt_TableHead {
+  display: none !important;
+}
+
+.transactions-page [data-tag="allowRowEvents"] {
+  width: 100%;
+}
+
+.send-receive-crypto .rdt_TableHead {
+  display: none !important;
+}
+
+.send-receive-crypto [data-tag="allowRowEvents"] {
+  width: 100%;
+}
+
+.show-all-dd {
+  margin-left: 150px;
+}
+
+.portfilio-link {
+  text-decoration: none !important;
+  color: #fff !important;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropbtn-hover {
+  color: white;
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-hover {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-hover {
+  display: none;
+  position: absolute;
+  background-color: #090a0e;
+  box-shadow: 0px 2px 15px rgb(15 16 21);
+  z-index: 1;
+  width: 180px;
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.dropdown-content-hover a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-hover a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-hover:hover .dropdown-content-hover {
+  display: block;
+}
+
+.dropdown-content-hover .nav-link {
+  font-size: 20px !important;
+  font-weight: 400;
+}
+
+.trade-header-info {
+  background-color: #212529;
+  padding: 12px 20px;
+}
+
+.trade-price-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.send-receive-container .slick-slide {
+  cursor: pointer;
+}
+
+/*portfolio section*/
+.portfolio-price-box-container {
+  height: 100%;
+  width: 100%;
+}
+.portfolio-price-box .portfolio-img{
+  position: relative;
+  margin-right: 30px;
+}
+.portfolio-price-box .portfolio-img .profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.portfolio-price-box .portfolio-img .profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-price-box .portfolio-img .status {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 10px solid #1f1f2d;
+}
+.portfolio-price-box .portfolio-data{
+  color: #fff;
+}
+.portfolio-price-box .portfolio-data .profile-name {
+  margin: 0 0 30px;
+}
+.portfolio-price-box .portfolio-data .verification .verify-icon {
+  width: 30px;
+  height: 30px;
+}
+.portfolio-price-box .portfolio-data .verification .verify{
+  color: #50cd89;
+  background-color: #1c3239;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: block;
+}
+.portfolio-price-box .portfolio-data .more-data{
+  margin: 0 0 30px;
+}
+
+.portfolio-price-box .portfolio-data .more-data .plan{
+  width: 119px;
+}
+.portfolio-price-box .portfolio-data .more-data .plan .plan-text{
+   max-width: calc(100% - 38px);
+   text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.portfolio-price-box .portfolio-data .more-data .plan .plan-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.portfolio-price-box .portfolio-data .more-data .plan .plan-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portfolio-price-box .portfolio-data .more-data h5{
+  margin-bottom: 0;
+  font-size: 22px;
+}
+.portfolio-price-box .portfolio-data .margin-right{
+   margin-right: 48px;
+}
+.portfolio-price-box .portfolio-data h3 {
+  font-size: 32px;
+  line-height: 36px;
+  max-width: 350px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.portfolio-price-box .portfolio-data .more-data svg.svg-inline--fa {
+  font-size: 22px;
+  line-height: 22px;
+}
+.portfolio-price-box .portfolio-data .more-data .address-area{
+  width: 287px;
+}
+.portfolio-price-box .portfolio-data .more-data .address-area .address-icon{
+  width: 17px;
+}
+.portfolio-price-box .portfolio-data .more-data .address-area .address{
+  max-width: calc(100% - 25px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.portfolio-price-box .portfolio-data .more-data .email {
+  width: 311px;
+}
+.portfolio-price-box .portfolio-data .more-data .email  .email-icon {
+  height: 22px;
+  width: 22px;
+}
+.portfolio-price-box .portfolio-data .more-data .email  .email-address{
+  max-width: calc(100% - 30px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.portfolio-price-box .portfolio-data .balance-section {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box{
+  background: #081724;
+  border: 2px solid #213550;
+  padding: 30px 40px;
+  display: inline-block;
+  min-width: 370px;
+  width: 390px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .total-tag {
+  font-size: 22px;
+  line-height: 25px;
+  display: block;
+  margin: 0 0 10px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .balance {
+  font-size: 40px;
+  line-height: 45px;
+  margin: 0 0 10px;
+  display: block;
+  color: #3baf7c;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .flow {
+  font-size: 16px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .flow .green{
+  color: #3baf7c;
+  background: none;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .flow .red{
+  color: red;
+  background: none;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .flow svg.svg-inline--fa {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.portfolio-price-box .stats-section .buttons-section {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 0 170px;
+}
+.portfolio-price-box .stats-section .buttons-section .green-button {
+  font-size: 20px;
+  color: #fff;
+  background-color: #3baf7c;
+  border: 1px solid #3baf7c;
+  padding: 10px 20px;
+  min-width: 275px;
+}
+.portfolio-price-box .stats-section .buttons-section .green-button:hover {
+  font-size: 20px;
+  background-color: #fff;
+  color: #3baf7c;
+  border: 1px solid #3baf7c;
+  padding: 10px 20px;
+  min-width: 275px;
+}
+.portfolio-price-box .stats-section .buttons-section .dropdown-toggle {
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+  background-color: #2b2b40;
+  border: none;
+}
+.portfolio-price-box .stats-section .buttons-section .dropdown-toggle:hover, .portfolio-price-box .stats-section .buttons-section .dropdown-toggle:active, .portfolio-price-box .stats-section .buttons-section .dropdown-toggle:focus {
+  background-color: #2b2b40 !important;
+  border: none;
+}
+.portfolio-price-box .stats-section .buttons-section .dropdown-toggle::after{
+  display: none;
+}
+.portfolio-price-box .stats-section .buttons-section .dropdown-toggle .svg-inline--fa{
+  font-size: 24px;
+}
+.portfolio-price-box .stats-section .progress-section {
+  color: #fff;
+}
+.portfolio-price-box .stats-section .progress-section .progress {
+  --bs-progress-height: 10px;
+}
+
+
+
+/**/
+.portfolio-price-box h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-tooltip {
+  display: none;
+  font-size: 12px;
+  background: #f66897;
+  padding: 5px 2px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0px;
+  left: 0;
+  bottom: -45px;
+  text-align: center;
+}
+
+.navbar-tooltip.bg-color {
+  background-color: #090a0e !important;
+}
+
+.header .navbar-light .navbar-nav .nav-link:hover .navbar-tooltip {
+  display: block;
+}
+
+.navbar-tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid rgb(255, 255, 255, 0.6);
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.header-activity-navlink .navbar-tooltip {
+  right: -12px;
+}
+
+.header-transactions-navlink .navbar-tooltip {
+  right: -5px;
+}
+
+.accordion-content {
+  background-color: rgba(12, 13, 20, 0.5);
+  margin-top: 15px;
+  padding: 35px 40px 40px 100px;
+}
+
+.accordion-content-activity {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 30px;
+  justify-content: space-between;
+}
+
+.accordion-content-activity .activity {
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.accordion-content-activity .activity svg {
+  cursor: pointer !important;
+}
+
+.accordion-content .personal-notes {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.accordion-content .personal-notes input {
+  background-color: rgba(19, 20, 28, 0.9);
+  width: 500px;
+  color: #fff;
+  border: 0;
+  padding: 5px 5px 5px 10px;
+}
+
+.dropdown-scrollable {
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: #0c0d14;
+}
+
+.dropdown-scrollable a {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.dropdown-scrollable .dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #13141c !important;
+}
+
+.transfer-modal .modal-content {
+  background: rgba(33, 34, 46, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.transfer-modal .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  z-index: 9;
+}
+
+.transfer-modal .btn-close {
+  background: transparent url("../images/modal-close-btn2.svg") center/2em auto no-repeat !important;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+.transfer-modal .modal-body {
+  padding: 100px 0;
+}
+
+.transfer-modal-content h4 {
+  font-weight: 300;
+  margin-bottom: 100px;
+}
+
+.transfer-modal-content {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.input-text-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.input-text-dropdown p {
+  width: 200px;
+  height: 50px;
+  background-color: rgba(19, 20, 28, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #fff;
+}
+
+.input-text-dropdown .dropdown {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(19, 20, 28, 0.6);
+}
+
+.input-text-dropdown button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.input-text-dropdown .dropdown-menu {
+  width: 100% !important;
+  background-color: rgba(19, 20, 28, 1) !important;
+}
+
+.input-text-dropdown .dropdown-menu a {
+  color: #fff;
+}
+
+.modal-hr-line {
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.transfer-modal-content h5 {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.transfer-modal-coin-dd button {
+  width: 100%;
+  background-color: rgba(24, 24, 34, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transfer-modal-coin-dd .coin-name-img::after {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  margin-top: 4px;
+}
+
+.transfer-modal-coin-dd .dropdown-toggle::after {
+  display: none;
+}
+
+.transfer-modal-coin-dd .dropdown-menu {
+  background-color: rgba(24, 24, 34, 1);
+  width: 100%;
+}
+
+.transfer-modal-coin-dd .dropdown-menu a {
+  color: #fff;
+}
+
+.con-heading-dropdown {
+  margin-bottom: 50px;
+}
+
+.transfer-modal-content input {
+  background-color: rgba(19, 20, 28, 0.6);
+  border: 0;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+}
+
+.transfer-modal-content .min-half-max-btns {
+  margin-bottom: 40px;
+}
+
+.confirm-btn {
+  width: 300px;
+  padding: 12px 12px;
+  background-color: #fff;
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+.confirm-btn:hover {
+  background-color: #128a74;
+  color: #fff;
+}
+
+.header-exchange-navlink .navbar-tooltip {
+  right: -22px !important;
+}
+
+.header-exchange-navlink img {
+  transform: rotate(45deg);
+  width: 33px;
+}
+
+.portfolio-details h3 {
+  font-size: 26px;
+}
+
+.send-receive-crypto .jfrgbA {
+  padding: 0 !important;
+}
+
+.successfully-copied {
+  display: flex;
+  align-items: center;
+  background-color: rgba(18, 138, 116, 0.3);
+  justify-content: center;
+  padding: 3px 12px;
+  color: rgba(18, 138, 116, 1);
+  margin: 0;
+}
+
+.successfully-copied img {
+  width: 35px;
+  margin-right: 15px;
+}
+
+.transactions-page .jfrgbA {
+  padding: 0 !important;
+}
+
+.deposit-selected-coin .non-active {
+  color: rgba(85, 85, 89, 1);
+  border: 1px solid rgba(85, 85, 89, 1);
+}
+
+.withdrawal-page .chain-type {
+  margin-bottom: 50px;
+}
+
+.wallet-address .address-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wallet-address-amount-withdrawal {
+  max-width: 500px;
+}
+
+.wallet-address-dd {
+  background-color: #0c0d14;
+}
+
+.wallet-address-dd button {
+  width: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d3440 !important;
+  color: #fff !important;
+}
+
+.wallet-address-dd .dropdown-menu {
+  width: 100% !important;
+  background-color: #0c0d14;
+}
+
+.wallet-address-dd .dropdown-menu a {
+  color: rgba(196, 196, 196, 1) !important;
+  text-decoration-line: underline !important;
+}
+
+.wallet-address-amount-withdrawal .wallet-address {
+  margin-bottom: 30px;
+}
+
+.amount-withdrawal .withdrawal-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount-withdrawal .input-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 46px;
+}
+
+.amount-withdrawal .input-all input {
+  background-color: #0c0d14;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 0 12px;
+}
+
+.amount-withdrawal .input-all input:focus-visible {
+  outline: unset !important;
+}
+
+.amount-withdrawal .input-all button {
+  background-color: #0c0d14;
+  height: 100%;
+  border-radius: 0;
+}
+
+.wallet-address-amount-withdrawal .amount-withdrawal {
+  margin-bottom: 10px;
+}
+
+.transcation-and-amount {
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transcation-and-amount p {
+  color: rgba(196, 196, 196, 1);
+}
+
+.wallet-address-amount-withdrawal {
+  margin-bottom: 60px;
+}
+
+.enter-btn3 {
+  width: 250px;
+  background: linear-gradient(270.06deg,
+      #128a74 -4.31%,
+      #19b497 39.37%,
+      #56c6b1 101.85%);
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.enter-btn3:hover {
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.enter-btn4 {
+  width: 250px;
+  background: linear-gradient(270.06deg,
+      #128a74 -4.31%,
+      #19b497 39.37%,
+      #56c6b1 101.85%);
+  color: #fff;
+  padding: 10px 12px;
+  margin: 35px;
+}
+
+.enter-btn4:hover {
+  color: #fff !important;
+  opacity: 0.8;
+}
+
+.withdrawal-modal .modal-content {
+  background: rgba(33, 34, 46, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.withdrawal-modal .modal-header {
+  border-bottom: 0;
+  padding: 0;
+  z-index: 9;
+}
+
+.withdrawal-modal .btn-close {
+  background: transparent url("../images/modal-close-btn2.svg") center/2em auto no-repeat !important;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.withdrawal-modal2 {
+  padding: 30px 12px 0px 80px;
+}
+
+.withdrawal-modal2 h4 {
+  margin-bottom: 80px;
+}
+
+.withdrawal-modal2 input {
+  margin-bottom: 50px;
+  background-color: #0c0d14;
+  width: 400px;
+  max-width: 100%;
+  border: 0;
+  color: #fff;
+  padding: 11px 12px;
+}
+
+.withdrawal-modal2 input:focus-visible {
+  outline: unset;
+}
+
+.add-address-btn {
+  color: #29b79d;
+  border: 1px solid #29b79d;
+  padding: 2px 10px;
+}
+
+.add-address-btn:hover {
+  color: #29b79d;
+  background-color: rgba(41, 183, 157, 0.2);
+}
+
+.header-trade-icon {
+  width: 30px;
+}
+
+.portfolio-datatable .eUeqdG {
+  color: rgba(255, 255, 255, 0.29);
+}
+
+.assets-checkbox-crypto {
+  margin-bottom: 150px;
+}
+
+.assets-checkbox-crypto .checkbox-crypto {
+  background-color: rgba(15, 16, 21, 1);
+  padding: 10px 20px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.assets-btn-dd {
+  margin-bottom: 60px;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 7px;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(196, 196, 196, 0.06);
+  border-radius: 50%;
+}
+
+.checkbox-container:hover input~.checkmark {
+  background-color: rgba(18, 138, 116, 0.5);
+}
+
+.checkbox-container input:checked~.checkmark {
+  background-color: #128a74;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(15, 16, 21, 1);
+}
+
+.checkbox-crypto-content {
+  padding-left: 30px;
+}
+
+.assets-etereum-asset h2 {
+  margin-bottom: 60px;
+}
+
+.assets-etereum-asset .show-all-dd {
+  margin-left: 0 !important;
+}
+
+.etereum-assets-boxes .etereum-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.etereum-assets-boxes .etereum-box .img-box {
+  background-color: rgba(12, 13, 20, 1);
+  border-radius: 16px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.etereum-assets-boxes .etereum-box .img-box img {
+  width: 80px;
+}
+
+.etereum-assets-boxes .checkbox-container {
+  margin-top: 0 !important;
+}
+
+.dropdown-menu {
+  background-color: #0c0d14;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+  color: #fff;
+}
+
+.etereum-assets-boxes .etereum-box .checkmark {
+  background-color: rgba(12, 13, 20, 1);
+}
+
+.set-leverage-modal .modal-content {
+  background-color: #13141c;
+}
+
+.set-leverage-modal .modal-content .modal-body .input-group {
+  margin-top: 10px;
+}
+
+.set-leverage-modal .modal-content .modal-body .input-group input {
+  background-color: #13141c;
+  color: #fff;
+}
+
+.trade-page-crypto {
+  display: flex;
+}
+
+.graph-and-table-wrapper {
+  display: flex;
+}
+
+.buy-and-sell,
+.order-book-market {
+  width: 330px;
+}
+
+.graph-orders-table-wrapper {
+  flex: 1;
+  width: calc(100% - 330px);
+}
+
+.order-book-market {
+  margin: 0 5px;
+}
+
+.graph-table {
+  margin-right: 5px;
+  margin-top: 10px;
+  background: rgb(19, 20, 28);
+}
+
+.trade-page-modal .modal-body {
+  padding: 0px 20px 20px 20px;
+}
+
+.trade-main-order {
+  display: flex;
+}
+
+.order-book-market-wrapper.trade-sport-market {
+  width: 330px;
+}
+
+.trade-main-order .graph-and-trade-transfer {
+  flex: 1;
+}
+
+.trade-main-order .order-book-market {
+  margin: 0;
+}
+
+.trade-main-order .two {
+  flex: 1;
+  width: calc(100% - 660px);
+}
+
+.trade-main-order .order-book-market-wrapper.trade-sport-market {
+  background-color: #13141c;
+}
+
+.graph-table-btns {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 3px 6px;
+  font-size: 12px;
+  white-space: normal !important;
+  margin-top: 3px;
+}
+
+.graph-table-btns:hover {
+  color: rgba(18, 138, 116, 1);
+  border: 1px solid rgba(18, 138, 116, 1);
+}
+
+.deposit-dropdown .dropdown-menu {
+  max-height: 250px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.limit-modal .modal-content {
+  background-color: #13141c;
+}
+
+.limit-modal-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.limit-modal-btns .btn {
+  width: 49%;
+  color: #fff;
+}
+
+.limit-modal-btns .confirm {
+  background-color: rgba(18, 138, 116, 1);
+}
+
+.limit-modal-btns .cancel {
+  background-color: rgba(219, 62, 62, 1);
+  opacity: 0.7;
+}
+
+.limit-modal-btns .confirm:hover {
+  opacity: 0.7;
+}
+
+.take-profit-usdt {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+.stop-loss-usdt {
+  padding-top: 15px;
+  margin-bottom: 50px;
+}
+
+.graph-table .table thead th {
+  padding: 5px 8px !important;
+  font-weight: 700;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  width: 100%;
+}
+
+.con-heading-dropdown .transfer-modal-coin-dd .dropdown-menu {
+  height: 200px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.modal-dialog .btn-close:focus {
+  box-shadow: unset !important;
+  outline: 0 !important;
+}
+
+.trade-table tbody tr td:nth-child(1),
+.trade-table thead tr th:nth-child(1) {
+  padding-left: 10px !important;
+}
+
+.trade-table tbody tr td:nth-child(3),
+.trade-table thead tr th:nth-child(3) {
+  padding-right: 10px !important;
+}
+
+.trade-table tbody tr:hover {
+  background-color: #0c0d14 !important;
+  cursor: pointer;
+}
+
+.trade-table tbody tr:hover {
+  cursor: default;
+}
+
+.login-orbtx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.graph-table .bMgaAx div:first-child,
+.graph-table .eUeqdG {
+  white-space: normal !important;
+}
+
+.graph-table .bMgaAx div:first-child,
+.graph-table .sc-evZas {
+  white-space: normal !important;
+}
+
+.login-bg {
+  background-image: url("../images/FramePassword2.svg");
+  background-repeat: no-repeat;
+  padding: 120px 0;
+  position: relative;
+}
+
+.login-bg .orbtx-logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.login-bg-container {
+  max-width: 524px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.multifield .login-bg-container {
+  max-width: 900px;
+}
+
+.login-bg-container h1 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.login-bg-container .password-input-field input {
+  width: 100%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.login-bg-container .password-input-field div {
+  max-width: unset;
+}
+
+.login-bg-container .password-input-field div div {
+  background: rgba(255, 255, 255, 0.17);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 6px;
+  cursor: pointer;
+}
+
+.login-bg-container .password-input-field div svg {
+  color: rgba(19, 20, 28, 1);
+}
+
+.custom-support-icons .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-support-icons .icon:hover {
+  cursor: pointer;
+}
+
+.custom-support-icons .icon-svg {
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-support-icons .icon svg {
+  color: rgba(19, 20, 28, 1);
+}
+
+.login-bg-container .password-input-field input:focus-visible {
+  outline: unset;
+}
+
+.registration-bg {
+  background-image: url("../images/FramePassword2.svg");
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  position: relative;
+}
+
+.registration-bg .orbtx-logo {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.register-orbtx {
+  padding: 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(196, 196, 196, 0.08) 60%, #13141c 40%);
+}
+
+.restore-timer {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.restore-timer span {
+  font-size: 12px;
+}
+
+.withdrawal-page .deposit-selected-coin p {
+  width: unset;
+  padding: 0 6px;
+}
+
+.deposit-selected-coin p {
+  cursor: pointer;
+}
+
+.swal2-backdrop-show {
+  z-index: 9999999 !important;
+}
+
+.address-wallet svg {
+  cursor: pointer;
+}
+
+.market-trend-orbtx div div {
+  background: #13141c;
+}
+
+.trade-anyway .col-md-8 {
+  position: relative;
+}
+
+.dropdown .dropdown-menu {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.market-orbtx-table .deposit-table tbody,
+.market-orbtx-table td,
+.market-orbtx-table tfoot,
+.market-orbtx-table th,
+.market-orbtx-table thead,
+.market-orbtx-table tr {
+  font-size: 16px !important;
+  padding: 8px !important;
+}
+
+.market-orbtx-table .graph-table-btns {
+  padding: revert;
+  font-size: unset;
+}
+
+.market-orbtx-table thead th,
+.market-orbtx-table tbody tr {
+  white-space: normal;
+}
+
+.two-factor-auth .modal-body {
+  padding: 40px 12px;
+}
+
+.two-factor-auth input {
+  background: rgba(19, 20, 28, 1);
+}
+
+.two-factor-auth input:focus {
+  background: rgba(19, 20, 28, 1);
+  color: #fff;
+}
+
+.mobile-none2 {
+  display: none !important;
+}
+
+.graph-table p {
+  margin-bottom: 0;
+}
+
+.graph-table .bnAwAJ {
+  min-width: 190px;
+}
+
+.graph-table .sc-hKMtZM {
+  min-width: 190px;
+}
+
+.text-red {
+  color: rgb(241, 73, 63);
+}
+
+.graph-table .bIA-DFW {
+  font-size: 12px;
+}
+
+.trade-spot .sell-orders,
+.trade-spot .buy-orders {
+  position: relative;
+  height: 357px !important;
+  width: 320px;
+  overflow: auto;
+  will-change: transform;
+  direction: ltr;
+}
+
+.trade-spot .trade-main-order .order-book-market-wrapper.trade-sport-market {
+  height: auto;
+}
+
+.trade-spot .order-book-market {
+  height: auto;
+}
+
+.trade-spot .order-book-market .order-book-market-wrapper {
+  height: auto;
+}
+
+.trade-spot .graph-and-trade-transfer {
+  background-color: rgb(19, 20, 28, 0.7);
+  height: auto;
+}
+
+.bg-green-tab {
+  background-color: rgba(18, 138, 116, 1);
+}
+
+.bg-red-tab {
+  background-color: rgba(219, 62, 62, 1);
+}
+
+.buy-and-sell-dd button p {
+  font-size: 12px;
+}
+
+.buy-and-sell-dd button {
+  background-color: rgba(225, 225, 225, 0.03);
+}
+
+.by-switch.by-switch--rectangle {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.by-switch.by-switch--rectangle .by-switch__item {
+  border: 1px solid rgba(255, 255, 255, .2);
+  height: 40px;
+  line-height: 40px;
+  margin-right: 12px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+
+.by-switch__item {
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1;
+  font-weight: 600;
+  height: 24px;
+  justify-content: center;
+  padding: 0 12px;
+  color: rgba(255, 255, 255, .65);
+  white-space: normal;
+}
+
+.by-switch.by-switch--rectangle .by-switch__item--active {
+  background-color: transparent;
+  border: solid 1px rgba(18, 138, 116, 1);
+  color: rgba(18, 138, 116, 1);
+}
+
+.by-switch.by-switch--rectangle .by-switch__item--active:after {
+  border-color: rgba(18, 138, 116, 1) !important;
+  border-width: 4px !important;
+}
+
+.by-switch.by-switch--rectangle .by-switch__item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 12px;
+  box-sizing: border-box;
+  left: 16px;
+  top: 14px;
+  width: 12px;
+  height: 12px;
+}
+
+.trade-modal-para {
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, .65);
+  background-color: rgba(255, 255, 255, .04);
+}
+
+.laverage-long {
+  margin-bottom: 20px;
+}
+
+.order-by-currency-coin button {
+  background-color: rgba(69, 71, 82, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.css-1baucg5 {
+  cursor: pointer;
+  white-space: normal;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  outline: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  word-break: keep-all;
+  color: rgba(18, 138, 116, 1);
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(18, 138, 116, 0.2);
+  margin-bottom: 30px;
+}
+
+.css-1baucg5:hover {
+  color: rgba(18, 138, 116, 1);
+}
+
+.leverage-margin h3 {
+  margin-bottom: 40px;
+}
+
+.leverage-margin .leverage-para p {
+  border-bottom: 2px solid rgba(18, 138, 116, 1);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.leverage-margin .leverage-para {
+  margin-bottom: 30px;
+}
+
+.leverage-margin .initial-margin-details p {
+  font-size: 14px;
+}
+
+.leverage-margin .initial-margin-details {
+  margin-bottom: 30px;
+}
+
+.searchable-dropdown {
+  margin-bottom: 30px;
+}
+
+.searchable-dropdown .btn {
+  border: 1px solid rgba(255, 255, 255, 0.46);
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+.searchable-dropdown .btn p {
+  font-size: 14px;
+}
+
+.searchable-dropdown .btn p:nth-child(2) {
+  margin-left: 76px;
+}
+
+.searchable-dropdown .btn:hover {
+  border: 1px solid rgba(18, 138, 116, 1);
+}
+
+.searchable-dropdown .dd-search-bar input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  padding: 4px 6px;
+}
+
+.searchable-dropdown .dd-search-bar input:focus-visible {
+  outline: 0;
+}
+
+.searchable-dropdown .dd-search-bar {
+  padding: 4px 16px;
+}
+
+.searchable-dropdown .dd-search-bar div {
+  border: 1px solid rgba(18, 138, 116, 1);
+}
+
+.searchable-dropdown .dd-search-bar svg {
+  padding-left: 12px;
+}
+
+.searchable-dropdown .dropdown-menu {
+  background-color: #1E2329;
+  box-shadow: 0px 7px 14px rgb(0 0 0 / 8%), 0px 3px 6px rgb(0 0 0 / 8%), inset 0px 0px 1px rgb(94 102 115 / 90%);
+  border-radius: 4px;
+}
+
+.leverage-margin-datatable {
+  margin-bottom: 30px;
+}
+
+.text-09 {
+  color: #848E9C !important;
+}
+
+.rulues-info p {
+  font-size: 12px;
+  color: #B7BDC6;
+}
+
+.portfolio-page .img-content {
+    position: relative;
+    padding: 112px 112px;
+    background: #1f1f2d;
+}
+
+.login-bg-container .form-btn.form-btn:hover {
+  opacity: 0.7;
+  color: #000;
+}
+
+.react-select-country {
+  margin-bottom: 20px;
+}
+
+.logo-wrapper {
+  display: inline-block;
+  /* width: 92px; */
+  padding-left: 10px;
+}
+
+.portfolio-logo img,
+.logo-wrapper img {
+  width: 200px;
+}
+
+.portfolio-price-box .heading-wrapper {
+  margin-bottom: 45px;
+}
+
+.user-setting, .user-change-password {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 230px 0px;
+}
+
+.user-change-password .form-control {
+  background-color: #13141c;
+  color: #fff;
+}
+
+.eyeicon {
+  background: #13141c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 6px;
+  cursor: pointer;
+}
+
+nav.header-right-icons .navbar {
+  min-height: unset !important;
+}
+
+.settings-btn2 .dropdown-content-hover {
+  margin-top: 7px;
+  margin-left: -16px;
+}
+
+.settings-btn2 .dropdown-content-hover .nav-link {
+  font-size: 17px !important;
+  font-weight: 400;
+}
+
+.user-setting .form-control {
+  color: #fff;
+  background-color: #13141c;
+  border-color: transparent;
+}
+
+.my-profile-col {
+  background-color: #0c0d14;
+  border-radius: 20px;
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 12px;
+}
+
+.dob input {
+  color-scheme: dark;
+}
+
+.register-ad-info textarea {
+  background-color: rgba(19, 20, 28, 1);
+  border: 1px solid hsl(0, 0%, 80%);
+  color: #fff;
+}
+
+.register-ad-info textarea:focus {
+  background-color: rgba(19, 20, 28, 1);
+  color: #fff;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.my-profile-col .country-react-flags-select button {
+  background-color: #13141c;
+  height: 38px;
+  border: 0;
+  border-radius: .375rem;
+}
+
+.country-react-flags-select button {
+  border: 1px solid hsl(0, 0%, 80%);
+  color: #fff;
+  background-color: rgba(19, 20, 28, 1);
+  height: 54px;
+  border-radius: 0;
+}
+
+.country-react-flags-select ul {
+  background: rgba(19, 20, 28, 1);
+}
+
+.country-react-flags-select div {
+  background: rgba(19, 20, 28, 1);
+}
+
+.country-react-flags-select div input {
+  background: rgba(19, 20, 28, 1);
+  color: #fff;
+  border: 1px solid hsl(0, 0%, 80%);
+}
+
+.country-react-flags-select li span {
+  color: #fff;
+}
+
+.country-react-flags-select li:hover {
+  color: #000 !important;
+  background: rgba(196, 196, 196, 0.08);
+}
+
+.rdt_TableCell div {
+  white-space: unset !important;
+}
+
+.portfolio-price-box h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.portfolio-price-box h4 {
+  line-height: 45px;
+}
+
+/**/
+.login-section{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #13141c;
+} 
+.login-section .image-section{
+  height: 100vh;
+  width: 100%;
+  max-width: calc(100% - 530px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/login-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.login-section.active .image-section{
+  background-image: url("../images/bg5-l.jpg");
+}
+.login-section.non-active .image-section{
+  background-image: url("../images/Login-Register-Page-darker.jpg");
+}
+.login-section .login-data{
+  position: relative;
+  max-width: 530px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-section form {
+  width: 100%;
+}
+.login-section .logo {
+  width: 60%;
+  margin: 0 auto 70px;
+}
+.login-section .nav.nav-pills {
+  position: absolute;
+  left: -174px;
+  top: 25%;
+}
+.login-section .nav-pills .nav-link {
+  color: #fff;
+  border-radius: 30px 0px 0px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 40px;
+  background-color: transparent;
+}
+.login-section .nav-pills .nav-link.active, .login-section .nav-pills .show>.nav-link {
+  color: #ae2cb0;
+  background-color: #fff;
+}
+.login-section .password-input-field input {
+  text-align: start;
+  padding: 15px;
+}
+.login-section .password-input-field input[type="password"] {
+  padding: 15px 50px 15px 15px;
+}
+.login-section .password-input-field {
+  margin-bottom: 20px;
+}
+.login-section .enter-btn{
+  margin-top: 20px;
+}
+.login-section a{
+  color: #ae2cb0;
+}
+.login-section .abc{
+  overflow: auto;
+  height: 800px;
+  padding: 50px 50px 50px;
+}
+.login-section .abc-1 {
+  overflow: auto;
+  height: 100%;
+  padding: 50px 50px 50px;
+}
+.login-section .abc-2 {
+  overflow: auto;
+  height: 100%;
+  padding: 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+/* ==================    media queriesssssssss    =================== */
+
+@media (max-width: 1845px) {
+  .buy-long-sell-short {
+    display: unset !important;
+  }
+
+  .trade-anyway-content {
+    max-width: 470px;
+    right: -160px;
+  }
+  /**/
+  .portfolio-page .img-content {
+    padding: 112px 50px;
+  }
+}
+
+@media (max-width: 1799.98px) {
+  .portfolio-price-box .portfolio-img .profile-img {
+    width: 260px;
+    height: 260px;
+  }
+  .portfolio-price-box .portfolio-data .balance-section .green-box {
+    width: 390px;
+  }
+}
+
+@media (max-width: 1619.98px) {
+  .custom-form-field {
+    width: 360px;
+  }
+}
+
+@media (max-width: 1599.98px){
+  .portfolio-details {
+    justify-content: space-around;
+  }
+  /**/
+  .portfolio-price-box .portfolio-img .profile-img {
+    width: 220px;
+    height: 220px;
+  }
+  .portfolio-price-box .portfolio-data h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .portfolio-price-box .portfolio-data .more-data h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+  .portfolio-price-box .portfolio-data .balance-section .green-box {
+    min-width: 48%;
+    max-width: 333px;
+    width: 333px;
+  }
+  .portfolio-price-box .portfolio-data .more-data .address-area {
+    width: 250px;
+  }
+  .portfolio-price-box .portfolio-data .more-data .email {
+    width: 275px;
+  }
+  .portfolio-price-box .portfolio-data .margin-right {
+    margin-right: 25px;
+  }
+  .portfolio-price-box .stats-section .buttons-section .green-button {
+    min-width: 235px;
+  }
+  .login-section .image-section {
+    background-position: 30%;
+}
+}
+
+@media (max-width: 1499.98px) {
+  .custom-form-field {
+    width: 100%;
+  }
+
+  .custom-form-field input {
+    width: 100%
+  }
+
+  .buy-btc,
+  .sell-btc {
+    flex: 1;
+    width: 100%;
+  }
+  .bQdYbR {
+    min-width: 150px;
+  }
+}
+
+
+@media (max-width: 1399.98px) {
+  .portfolio-price-box h2 {
+    font-size: 22px;
+  }
+
+  .header .navbar-light .navbar-nav .nav-link {
+    padding: 8px;
+  }
+
+  .settings-btn2 .dropdown-content-hover {
+    margin-left: -60px;
+  }
+
+  .portfolio-price-box h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .important-faqs {
+    padding: 30px 25px 25px 25px;
+  }
+
+  .deposit-coin {
+    padding: 33px 12px 0 50px;
+  }
+
+  .deposit-coin2 {
+    padding: 33px 12px 0 50px;
+  }
+
+  .deposit-coin3 {
+    padding: 33px 12px 0 50px;
+  }
+
+  .welcomeback-page {
+    padding: 0;
+  }
+
+  .welcomeback {
+    min-height: 100vh;
+  }
+
+  .enter-btn {
+    padding: 12px 12px;
+    width: 150px;
+  }
+
+  .welcomeback h5 {
+    margin-bottom: 50px;
+  }
+
+  .custom-support-icons {
+    padding: 60px 12px 0 12px;
+  }
+
+  .password-input-field input {
+    height: 40px;
+  }
+
+  .react-select-country .css-1s2u09g-control,
+  .react-select-country .css-1pahdxg-control,
+  .css-1pahdxg-control {
+    height: 40px
+  }
+
+  .password-input-field img {
+    width: 30px;
+    top: 5px;
+    left: 20px;
+  }
+
+  .portlofio-options {
+    padding-top: 110px;
+  }
+
+  .portfolio-details .detail p {
+    font-size: 16px;
+  }
+
+  .backup-complete .page-content {
+    margin-bottom: 40px;
+  }
+
+  .backup-options .option .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .createpassword-orbtx .steps {
+    margin-bottom: 40px;
+  }
+
+  .step-line-border {
+    height: 4px;
+    width: 100px;
+  }
+
+  .createpassword-orbtx .steps {
+    max-width: 500px;
+  }
+
+  .createpassword-orbtx .page-content h1 {
+    margin-bottom: 12px;
+  }
+
+  .createpassword-orbtx .type-password {
+    margin-bottom: 50px;
+  }
+
+  .createpassword-orbtx .type-password input {
+    width: 500px;
+    height: 40px;
+  }
+
+  .next-btn {
+    padding: 6px 12px;
+    width: 120px;
+  }
+
+  .unlock-wallet .modal-body h2 {
+    margin-bottom: 30px;
+  }
+
+  .secret-phrase .checkbox-div {
+    margin-bottom: 30px;
+  }
+
+  .auto-lock {
+    padding: 40px 0 40px 50px;
+  }
+
+  .auto-lock img {
+    width: 100px;
+  }
+
+  .auto-lock .auto-lock-content p {
+    margin-bottom: 20px;
+  }
+
+  .withdrawal-crypto h1 {
+    margin-bottom: 30px;
+  }
+
+  .withdraw-details .modal-body {
+    padding: 50px 16px;
+  }
+
+  .withdraw-btn {
+    padding: 8px 15px;
+  }
+
+  .header-navbar-collapse-icon .nav-link {
+    font-size: 24px !important;
+  }
+
+  .trade-spot-transfer {
+    padding: 25px 16px;
+  }
+
+  .custom-form-field {
+    width: 100%;
+  }
+
+  .custom-form-field input {
+    width: 100%;
+  }
+
+  .transactions-page .transactions-icon {
+    width: 60px;
+  }
+
+  .transactions-page .transactions-heading-div {
+    margin-bottom: 40px;
+  }
+
+  .transcations-dd button {
+    padding: 15px 25px;
+  }
+
+  .transcations-dd .transcations-dd-content .dd-icon:after {
+    border-top: 0.5em solid;
+    border-right: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    margin-left: 35px;
+  }
+
+  .send-receive-crypto .crypto-container img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+  }
+
+  .send-receive-crypto .crypto-container h1 {
+    margin-bottom: 20px;
+  }
+
+  .crypto-btns button {
+    margin: 0 15px;
+    width: 170px;
+  }
+
+  .send-receive-crypto .crypto-container {
+    padding: 40px 0;
+  }
+
+  .trade-page-dd {
+    padding-top: 15px;
+  }
+
+  .transcations-accord-item .accordion-button {
+    padding: 15px 25px;
+  }
+
+  .transcations-accord-item .accordion-button::after {
+    margin-left: 35px;
+  }
+
+  .send-crypto-content img {
+    margin-bottom: 20px;
+  }
+
+  .send-crypto-content .input-qrcode {
+    margin-bottom: 30px;
+  }
+
+  .two-input-feild {
+    margin-bottom: 25px;
+  }
+
+  .send-crypto-content .send-btn3 {
+    margin-bottom: 40px;
+  }
+
+  .crypto-success-modal h5 {
+    font-size: 16px;
+  }
+
+  .crypto-success-modal img {
+    margin-bottom: 30px;
+  }
+
+  .crypto-success-modal h3 {
+    margin-bottom: 33px;
+  }
+
+  .personalize-company h1 {
+    margin-bottom: 10px;
+  }
+
+  .personalize-company h2 {
+    margin-bottom: 15px;
+  }
+
+  .use-default-btn {
+    margin-bottom: 30px;
+  }
+
+  .dropdown.personalize-accor-dd {
+    top: 16px;
+  }
+
+  .dropdown.personalize-accor-dd {
+    right: 70px;
+  }
+
+  .dropdown-content-hover .nav-link {
+    font-size: 16px !important;
+  }
+
+  .portfolio-price-box {
+    width: 300px;
+  }
+
+  .transfer-modal .modal-body {
+    padding: 40px 0;
+  }
+
+  .transfer-modal-content h4 {
+    margin-bottom: 40px;
+  }
+
+  .modal-hr-line {
+    margin-top: 40px;
+  }
+
+  .con-heading-dropdown {
+    margin-bottom: 30px;
+  }
+
+  .input-text-dropdown p,
+  .input-text-dropdown .dropdown,
+  .transfer-modal-content input {
+    height: 40px;
+  }
+
+  .portfolio-details h3 {
+    font-size: 24px;
+  }
+
+  .portfolio-details h5 {
+    font-size: 18px;
+  }
+
+  .header2 .header-navbar-collapse-icon2 .nav-link {
+    font-size: 27px !important;
+  }
+
+  .settings-btn2 .dropdown-content-hover .nav-link {
+    font-size: 17px !important;
+  }
+
+  .withdrawal-modal2 h4 {
+    margin-bottom: 40px;
+  }
+
+  .withdrawal-modal2 input {
+    margin-bottom: 30px;
+  }
+
+  .header-exchange-navlink img {
+    width: 27px;
+  }
+
+  .header-trade-icon {
+    width: 25px;
+  }
+
+  .assets-orbtx .paras {
+    margin-bottom: 50px;
+  }
+
+  .assets-checkbox-crypto {
+    margin-bottom: 70px;
+  }
+
+  .assets-etereum-asset h2 {
+    margin-bottom: 30px;
+  }
+
+  .checkbox-crypto-content {
+    padding-left: 10px;
+  }
+
+  .etereum-assets-boxes .etereum-box .img-box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .etereum-assets-boxes .etereum-box .img-box img {
+    width: 60px;
+  }
+
+  .buy-and-sell,
+  .order-book-market {
+    width: 250px;
+  }
+
+  .graph-orders-table-wrapper {
+    flex: 1;
+    width: calc(100% - 250px);
+  }
+
+  .order-book-market .order-book-market-wrapper {
+    height: 100%;
+  }
+
+  .order-book-market-wrapper.trade-sport-market {
+    width: 250px;
+  }
+
+  .login-bg-container .password-input-field div div {
+    width: 30px;
+    height: 30px;
+    top: 5px;
+  }
+
+  .trade-anyway-content {
+    max-width: 280px !important;
+    right: -20px !important;
+    top: 120px !important;
+  }
+
+  .trade-main-order .two {
+    width: calc(100% - 500px);
+  }
+
+  .user-change-password .enter-btn {
+    padding: 6px 12px;
+  }
+
+  .country-react-flags-select button {
+    height: 40px;
+  }
+
+  .portfolio-price-box {
+    width: 350px;
+  }
+  /**/
+  .portfolio-page .portfolio-price-box {
+    width: 100%;
+    flex-direction: column;
+  }
+  .portfolio-page .portfolio-data-section {
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 0 40px;
+  }
+  .portfolio-page .stats-section {
+    max-width: 100%;
+    margin: 0 auto;
+    min-width: 900px;
+  }
+  .portfolio-price-box .stats-section .buttons-section {
+    margin: 0 0 40px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .buy-long-sell-short {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .trade-anyway-content {
+    max-width: 280px !important;
+    right: -60px !important;
+    top: 100px !important;
+  }
+
+  .portlofio-options {
+    padding-top: 80px;
+  }
+
+  .padding50 {
+    padding-top: 30px;
+  }
+
+  .accordion-content {
+    padding: 30px 0 30px 20px;
+  }
+
+  .portfolio-details h3 {
+    font-size: 22px;
+  }
+
+  .portfolio-details h5 {
+    font-size: 16px;
+  }
+
+  .assets-btn-dd,
+  .assets-btns {
+    flex-wrap: wrap;
+  }
+
+  .assets-btns .btn {
+    width: 25%;
+    flex: unset;
+  }
+
+  .buy-and-sell {
+    padding-top: 15px;
+  }
+
+  .graph-and-table-wrapper article div {
+    height: 500px !important;
+  }
+
+  .trade-page-crypto {
+    flex-direction: column;
+  }
+
+  .buy-and-sell {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .trade-main-order .two {
+    order: 1;
+  }
+
+  .trade-main-order .one {
+    order: 2;
+  }
+
+  .trade-main-order .three {
+    order: 3;
+  }
+
+  .trade-main-order {
+    flex-direction: column;
+  }
+
+  .trade-main-order .trade-spot-transfer {
+    margin-bottom: 8px;
+  }
+
+  .trade-main-order .order-book-market {
+    width: 100%;
+  }
+
+  .trade-main-order .order-book-market-wrapper.trade-sport-market {
+    width: 100%;
+  }
+
+  .order-book-market-wrapper.trade-sport-market {
+    padding: 0;
+  }
+
+  .order-book-market-wrapper.trade-sport-market .trade-spot-table {
+    padding: 0 10px;
+  }
+
+  .trade-main-order .order-book-market-wrapper.trade-sport-market {
+    padding: 0 10px;
+    margin-top: 8px;
+  }
+
+  .graph-orders-table-wrapper {
+    width: 100%;
+  }
+
+  .trade-main-order .two {
+    width: 100%;
+  }
+
+  .trade-spot .sell-orders,
+  .trade-spot .buy-orders {
+    height: 275px !important;
+  }
+
+  /**/
+  .portfolio-details {
+    justify-content: start;
+  }
+  .portfolio-details .detail {
+    min-width: 31%;
+    margin: 0 1% 20px;
+  }
+  .portfolio-datatable {
+    margin: 20px 25px;
+  }
+
+  /**/
+  .login-section .login-data {
+    max-width: 430px;
+  }
+  .login-section .image-section {
+    max-width: calc(100% - 430px);
+  }
+  .login-section .nav-pills .nav-link {
+    font-size: 17px;
+    padding: 12px 30px;
+  }
+  .login-section .nav.nav-pills {
+    left: -141px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .deposit-coin {
+    padding: 30px 25px 0 25px;
+  }
+
+  .deposit-coin2 {
+    padding: 30px 25px 0 25px;
+  }
+
+  .deposit-coin3 {
+    padding: 30px 25px 0 25px;
+  }
+
+  .trade-anyway-content {
+    max-width: 280px !important;
+    right: 0px !important;
+    top: 70px !important;
+  }
+
+  .portlofio-options {
+    padding-top: 40px;
+  }
+
+  .price-chart-img {
+    padding: 40px 0;
+  }
+
+  .connect-devices .connect .icon-shade {
+    width: 180px;
+  }
+
+  .withdraw-form-details .text-and-feild input {
+    width: 250px;
+  }
+
+  .portfolio-price-box {
+    width: 300px;
+  }
+
+  .accordion-content-activity {
+    padding-left: 0;
+  }
+
+  .accordion-content .personal-notes {
+    margin-left: 0;
+  }
+
+  .accordion-content-activity .activity {
+    padding-left: 10px;
+  }
+
+  .accordion-content .personal-notes input {
+    width: 300px;
+  }
+
+  .transfer-modal-content {
+    max-width: 400px;
+  }
+
+  .input-text-dropdown p {
+    width: 150px;
+  }
+
+  .confirm-btn {
+    width: 200px;
+  }
+
+  .wallet-address-amount-withdrawal {
+    margin-bottom: 30px;
+  }
+
+  .enter-btn3 {
+    width: 150px;
+    padding: 6px 12px;
+  }
+
+  .withdrawal-modal2 {
+    padding: 30px 12px 0px 12px;
+  }
+
+  .withdrawal-modal2 input,
+  .withdrawal-modal2 .deposit-dropdown button {
+    width: 100%;
+  }
+
+  .assets-btns .btn {
+    width: 33%;
+  }
+
+  .mobile-none {
+    display: none !important;
+  }
+
+  .header .header1 .mobile-none {
+    display: none !important;
+  }
+
+  .header .header1 .navbar-collapse {
+    padding: 0 25px;
+  }
+
+  .navbar-link-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .mobile-none2 {
+    display: block !important;
+  }
+
+  .header-right-icons {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+  }
+
+  .navbar-collapse.collapse.show>.navbar-toggler {
+    padding-top: 0 !important;
+  }
+
+  .header .navbar {
+    min-height: 70px;
+    align-items: flex-end;
+  }
+
+  .header-trade-dd-mobile .nav-link {
+    font-size: 14px !important;
+    justify-content: center;
+  }
+
+  .header-trade-dd-mobile .dropdown-menu {
+    background: transparent;
+    border: 0;
+  }
+
+  .header1 .header-navbar-collapse-icon .header-trade-dd-mobile .dropdown-menu .nav-link:hover {
+    background: transparent !important;
+    border-bottom: 0 !important;
+    color: rgba(18, 138, 116, 1) !important;
+  }
+
+  .header-trade-dd-mobile .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header2 .navbar-collapse {
+    margin-top: 0 !important;
+  }
+
+  .header2 .header-navbar-collapse-icon .nav-link {
+    text-align: center;
+  }
+
+  .settings-btn2 .dropdown-content-hover .nav-link {
+    text-align: left;
+  }
+
+  .header2 .container-fluid {
+    justify-content: flex-start;
+  }
+
+  .my-profile-col {
+    max-width: 740px;
+    padding: 20px;
+  }
+
+  .portfolio-price-box h2 {
+    font-size: 20px;
+  }
+
+  /**/
+  .header .navbar-light .navbar-nav .nav-link .btn.show,   .header .navbar-light .navbar-nav .nav-link .btn:first-child:active{
+    border-color: transparent;
+  }
+  .deposit-coin {
+    padding: 30px 8px 0 8px;
+}
+
+  /**/
+  .portfolio-page .portfolio-data-section {
+    flex-direction: column;
+  }
+  .portfolio-price-box .portfolio-img {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .portfolio-page .stats-section {
+    max-width: 100%;
+    margin: 0 auto;
+    min-width: 694px;
+  }
+  .portfolio-price-box .portfolio-data .profile-name {
+    margin: 0 0 30px;
+    justify-content: center;
+  }
+
+  /**/
+  .login-section .image-section {
+    display: none;
+  }
+  .login-section .nav.nav-pills {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row !important;
+    margin: 0 0 40px;
+}
+  .login-section .nav-pills .nav-link {
+    border-radius: 30px 30px 30px 30px;
+}
+.login-section .login-data {
+  max-width: 100%;
+}
+.password-input-field div {
+  max-width: 100%;
+  width: 100%;
+}
+.login-section .password-input-field input {
+  width: 100%;
+}
+.login-section .logo {
+  width: 57%;
+  margin: 0 auto 50px;
+}
+
+}
+
+@media (max-width: 767.98px) {
+  .portlofio-options .option img {
+    width: 30px;
+  }
+
+  .portfolio-price-box {
+    width: 290px;
+  }
+
+  .portfolio-price-box h2 {
+    font-size: 18px;
+  }
+
+  .portfolio-price-box h1 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  .trade-anyway-content {
+    position: unset;
+    max-width: 100% !important;
+    padding-top: 25px;
+  }
+
+  .portlofio-options {
+    padding-top: 20px;
+  }
+
+  .portlofio-options .option .btn {
+    font-size: 14px;
+  }
+
+  .price-chart-img {
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+
+  .transactions-page .transactions-heading {
+    padding-left: 0;
+  }
+
+  .transactions-page .transactions-icon {
+    width: 50px;
+  }
+
+  .accordion-content-activity {
+    flex-wrap: wrap;
+  }
+
+  .accordion-content-activity .activity p:nth-child(1) {
+    margin-bottom: 0 !important;
+  }
+
+  .show-all-dd {
+    margin-left: 15px;
+  }
+
+  .graph-and-table-wrapper {
+    flex-direction: column;
+  }
+
+  .order-book-market {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+
+  .login-bg .orbtx-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .registration-bg .orbtx-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .register-orbtx {
+    padding: 60px 40px;
+  }
+
+  .user-setting {
+    height: unset;
+  }
+
+  .my-profile-col {
+    max-width: 100%;
+    padding: 0;
+  }
+  /**/
+  .portfolio-details .detail {
+    min-width: 48%;
+  }
+  .portfolio-datatable {
+    margin: 20px 15px;
+  }
+
+  /**/
+  .portfolio-page .stats-section {
+    min-width: 476px;
+  }
+  .portfolio-price-box .portfolio-data .profile-name {
+    flex-direction: column;
+  }
+  .portfolio-price-box .portfolio-data h3 {
+    max-width: 100%;
+    margin: 0 0 20px !important;
+  }
+  .portfolio-price-box .portfolio-data .more-data {
+    flex-direction: column;
+  }
+  .portfolio-price-box .portfolio-data .margin-right {
+    margin-right: 0px;
+  }
+  .portfolio-price-box .portfolio-data .more-data .plan {
+    width: 100%;
+    justify-content: center;
+    margin: 0 0 20px;
+  }
+  .portfolio-price-box .portfolio-data .more-data .address-area {
+    width: 100%;
+    margin: 0 0 20px;
+    justify-content: center;
+  }
+  .portfolio-price-box .portfolio-data .more-data .email {
+    width: 100%;
+    justify-content: center;
+  }
+  .portfolio-price-box .portfolio-data .balance-section {
+    flex-direction: column;
+  }
+  .portfolio-price-box .portfolio-data .balance-section .green-box {
+    min-width: 100%;
+    max-width: 476px;
+    width: 10%;
+    margin: 0 0 20px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .portfolio-content-logo h2 {
+    flex-direction: column;
+  }
+
+  .portfolio-content-logo .logo-wrapper {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .portfolio-price-box .heading-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .deposit-coin {
+    padding: 30px 12px 0 12px;
+  }
+
+  .deposit-coin2 {
+    padding: 30px 12px 0 12px;
+  }
+
+  .deposit-coin3 {
+    padding: 30px 12px 0 12px;
+  }
+
+  .header2 .navbar-nav .nav-link.fw-bolder {
+    font-size: 21px !important;
+  }
+
+  .address-wallet {
+    padding: 11px 12px;
+  }
+
+  .deposit-selected-coin p {
+    width: 70px;
+  }
+
+  .dropdown.deposit-dropdown {
+    margin-bottom: 40px;
+  }
+
+  .password-input-field input {
+    width: 290px;
+  }
+
+  .password-input-field img {
+    left: 10px;
+  }
+
+  .enter-btn {
+    width: 120px;
+  }
+
+  .password-input-field {
+    margin-bottom: 30px;
+  }
+
+  .portfolio-content {
+    position: unset;
+  }
+
+  .portfolio-content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 13%;
+  }
+
+  .portlofio-options {
+    display: unset;
+  }
+
+  .portlofio-options .option {
+    margin-bottom: 15px;
+  }
+
+  .backup-options .option .btn {
+    font-size: 12px;
+  }
+
+  .backup-options .option {
+    margin-bottom: 20px;
+  }
+
+  .backup-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .createpassword-orbtx .type-password input {
+    width: 290px;
+  }
+
+  .createpassword-orbtx .type-password {
+    margin-bottom: 25px;
+  }
+
+  .step-line-border {
+    width: 35px;
+  }
+
+  .createpassword-orbtx .steps {
+    max-width: 300px;
+  }
+
+  .steps .step span {
+    padding: 3px 9px;
+  }
+
+  .unlock-wallet .modal-body input {
+    width: 260px;
+  }
+
+  .secret-phrase .checkbox-div {
+    padding-left: 0;
+  }
+
+  .back-btn {
+    margin-right: 20px;
+  }
+
+  .auto-lock {
+    flex-direction: column;
+  }
+
+  .auto-lock {
+    padding: 20px 0 40px 0px;
+  }
+
+  .auto-lock .auto-lock-content {
+    padding-top: 20px;
+  }
+
+  .auto-lock .auto-lock-content {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .price-chart-img {
+    background-position: center;
+    padding: 0;
+  }
+
+  .connect-devices .connect .content-and-box {
+    flex-direction: column;
+  }
+
+  .connect-devices .connect {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .connect-devices .connect .content {
+    margin-left: 0;
+  }
+
+  .connect-devices .connect .content-and-box {
+    align-items: center;
+  }
+
+  .crypto-have {
+    padding: 20px 10px;
+  }
+
+  .crypto-have-dropdown .dd-coin-name {
+    padding: 5px 40px 5px 27px;
+  }
+
+  .crypto-have h3 {
+    padding-right: 0;
+  }
+
+  .exchange-fonticon {
+    font-size: 14px;
+  }
+
+  .para-minimum {
+    margin-bottom: 30px !important;
+  }
+
+  .withdraw-form-details .text-and-feild {
+    flex-direction: column;
+  }
+
+  .withdraw-form-details .text-and-feild p {
+    margin-bottom: 10px !important;
+  }
+
+  .withdraw-details .modal-body {
+    padding: 20px 16px;
+  }
+
+  .withdraw-details .btn-close {
+    margin-right: 10px;
+  }
+
+  .buy-sell-btc {
+    flex-direction: column;
+  }
+
+  .sell-btc {
+    margin-top: 20px;
+  }
+
+  .transcations-dd button {
+    padding: 12px 4px;
+  }
+
+  .transcations-dd .transcations-dd-content .dd-icon:after {
+    margin-left: 5px;
+  }
+
+  .transcations-dd .transcations-dd-content h5 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .transcations-dd .transcations-dd-content p {
+    font-size: 13px;
+  }
+
+  .transcations-dd .transcations-dd-content .dd-icon:after {
+    border-top: 0.4em solid;
+    border-right: 0.4em solid transparent;
+    border-left: 0.4em solid transparent;
+  }
+
+  .all-assets-types {
+    justify-content: center;
+  }
+
+  .transactions-btns {
+    flex-wrap: wrap;
+  }
+
+  .transactions-btns .btn {
+    width: 33%;
+    border-right: 0;
+    text-align: left;
+  }
+
+  .crypto-btns {
+    flex-direction: column;
+  }
+
+  .crypto-btns button {
+    margin-bottom: 10px;
+  }
+
+  .send-receive-crypto h3 {
+    padding: 20px 0;
+  }
+
+  .bar {
+    margin-bottom: 10px;
+  }
+
+  .tv-ticker-item-tape {
+    padding: 7px 0 !important;
+  }
+
+  .transcations-accord-item .transcations-accord-content h5 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .transcations-accord-item .accordion-button::after {
+    margin-left: 5px;
+  }
+
+  .transcations-accord-item .accordion-button {
+    padding: 12px 4px;
+  }
+
+  .header2 .navbar-nav .nav-link {
+    font-size: 14px !important;
+  }
+
+  .header2 .header-navbar-collapse-icon2 .nav-link {
+    font-size: 24px !important;
+  }
+
+  .receive-crypto .input-icon {
+    width: 290px;
+  }
+
+  .receive-crypto input {
+    width: 290px;
+  }
+
+  .send-crypto-content {
+    width: 290px;
+  }
+
+  .send-crypto-content .input-qrcode {
+    width: 270px;
+  }
+
+  .two-input-feild {
+    width: 270px;
+  }
+
+  .two-input-feild .first-input input {
+    width: 150px;
+  }
+
+  .two-input-feild .first-input button {
+    padding: 6px 6px;
+  }
+
+  .crypto-success-modal img {
+    margin-bottom: 20px;
+  }
+
+  .crypto-success-modal h3 {
+    margin-bottom: 20px;
+  }
+
+  .dropdown.personalize-accor-dd {
+    right: 30px;
+  }
+
+  .personalize-accor-dd .dd-data p {
+    margin-left: 7px;
+  }
+
+  .personalize-accor-dd button {
+    width: 150px;
+    padding: 4px 12px;
+  }
+
+  .dropdown-content-hover .nav-link {
+    padding-left: 15px;
+  }
+
+  .trade-header-info {
+    padding: 5px 12px;
+  }
+
+  .portfolio-price-box {
+    width: 90%;
+  }
+
+  .accordion-content .personal-notes input {
+    width: 260px;
+  }
+
+  .accordion-content-activity .activity {
+    width: 100%;
+  }
+
+  .transfer-modal-content {
+    max-width: 260px;
+  }
+
+  .confirm-btn {
+    width: 170px;
+    padding: 6px 12px;
+  }
+
+  .input-text-dropdown p {
+    width: 100px;
+  }
+
+  .wallet-address-amount-withdrawal,
+  .amount-withdrawal .withdrawal-amount {
+    margin-bottom: 10px;
+  }
+
+  .amount-withdrawal .withdrawal-amount {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .amount-withdrawal .withdrawal-amount p {
+    margin-bottom: 5px !important;
+  }
+
+  .withdrawal-modal2 {
+    padding: 10px 12px 0px 12px;
+  }
+
+  .withdrawal-modal2 h4 {
+    margin-bottom: 25px;
+  }
+
+  .slider-search-container {
+    padding: 0 30px 0 54px;
+  }
+
+  .activity-cion-search-box {
+    padding: 10px 6px 0 6px;
+  }
+
+  .searchbox-input-fleid {
+    left: 30px;
+  }
+
+  .exchange-crypto .crypto-fields-dd .text-center {
+    margin-top: -10px !important;
+  }
+
+  .assets-dropdown {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .show-all-dd {
+    margin-left: 0;
+  }
+
+  .assets-orbtx-container .search-input {
+    margin-bottom: 10px;
+  }
+
+  .assets-btns .btn {
+    width: 100%;
+    border-right: 0;
+  }
+
+  .assets-checkbox-crypto {
+    margin-bottom: 50px;
+  }
+
+  .etereum-assets-boxes .etereum-box {
+    justify-content: center;
+  }
+
+  .login-bg-container .password-input-field input {
+    padding: 0 12px;
+  }
+
+  .login-bg-container .password-input-field div div {
+    right: 12px;
+  }
+
+  .login-bg .orbtx-logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  .registration-bg .orbtx-logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+
+  .welcomeback .orbtx-logo {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .header .header1 .navbar-collapse {
+    padding: 0 10px;
+  }
+
+  .header-right-icons {
+    top: 11px;
+  }
+
+  .trade-page-modal .modal-body {
+    padding: 0px 10px 20px 10px;
+  }
+
+  .leverage-margin .initial-margin-details p {
+    font-size: 12px;
+  }
+
+  .searchable-dropdown .dd-search-bar svg {
+    padding-left: 8px;
+  }
+
+  .trade-anyway .device-services .d-flex {
+    flex-direction: column;
+  }
+
+  .trade-anyway .device-services .d-flex .card {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .portfolio-page .portfolio-img img {
+    min-height: 190px;
+  }
+
+  .portfolio-details .detail {
+    width: 100%;
+  }
+
+  .register-orbtx {
+    padding: 60px 10px;
+  }
+
+  .settings-btn2 .dropdown-content-hover .nav-link {
+    font-size: 16px !important;
+  }
+  /**/
+  .text-white2 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .trade-anyway-content {
+    position: unset;
+    max-width: 75% !important;
+    padding-top: 25px;
+    margin: 0 auto;
+  }
+  /**/
+  .portfolio-datatable .top-heading .cur-tag {
+    font-size: 22px;
+  }
+  /**/
+  .portfolio-price-box .portfolio-data .balance-section .green-box {
+    max-width: 380px;
+  }
+  .portfolio-page .stats-section {
+    min-width: 380px;
+  }
+}
+
+@media (max-width: 479.98px) {
+
+  .portfolio-details .detail {
+    width: 100%;
+    text-align: center;
+  }
+
+  .exchange-crypto .crypto-fields-dd .crypto-have {
+    flex-direction: column;
+  }
+
+  .exchange-crypto .crypto-fields-dd .crypto-have .crypto-have-dropdown {
+    margin-bottom: 15px;
+  }
+  
+  .header .navbar-light .navbar-nav .nav-link {padding: 5px;}
+  /**/
+  .trade-anyway-content {max-width: 100% !important;}
+  .trade-anyway .device-services .d-flex .card {width: 100%;margin: 0 auto;}
+  .portfolio-logo img, .logo-wrapper img { width: 180px;}
+  .portfolio-datatable .top-heading .cur-tag {font-size: 18px;}
+  .portfolio-datatable .top-heading .cur-small-tag {padding: 8px 16px;font-size: 14px;}
+
+  /**/
+  .portfolio-price-box .portfolio-img .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+  .portfolio-price-box .portfolio-data h3 {
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .portfolio-price-box .portfolio-data .more-data h5 {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box {
+  padding: 30px 15px;
+}
+.portfolio-page .img-content {
+  padding: 112px 14px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .total-tag {
+  font-size: 19px;
+  line-height: 22px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .balance {
+  font-size: 30px;
+  line-height: 36px;
+}
+.portfolio-price-box .portfolio-data .balance-section .green-box .flow {
+  font-size: 12px;
+}
+.portfolio-page .stats-section {
+  min-width: 290px;
+}
+.portfolio-price-box .stats-section .buttons-section .green-button {
+  min-width: 210px;
+}
+.portfolio-price-box .portfolio-img .status {
+  right: -18px;
+  width: 30px;
+  height: 30px;
+}
+/**/
+.login-section .abc-1 {
+ padding: 50px 15px 50px;
+}
+.login-section .abc-2 {
+ padding: 50px 15px 50px;
+}
+.login-section .abc {
+  padding: 50px 15px 100px;
+}
+.login-section .nav.nav-pills {
+  padding-top: 100px;
+}
+.login-section .nav-pills .nav-link {
+  font-size: 14px;
+  padding: 12px 30px;
+}
+
+}
+
+
+@media (max-width: 319.98px){
+  .header-navbar-collapse-icon .nav-link svg {width: 25px;font-size: 20px;}
+  /**/
+  .portfolio-page .stats-section {
+    min-width: 241px;
+  }
+  .portfolio-price-box .stats-section .buttons-section .green-button {
+    min-width: 170px;
+  }
+}
+
+.coin-img {
+  width: 50px;
+}
+
+.errMsg {
+  color: red;
+  font-size: 16px;
+}

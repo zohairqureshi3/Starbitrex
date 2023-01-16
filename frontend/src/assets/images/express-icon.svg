@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="Group_4668" data-name="Group 4668" transform="translate(-404 -757)">
+    <circle id="Ellipse_72" data-name="Ellipse 72" cx="8" cy="8" r="8" transform="translate(404 757)" fill="#fff"/>
+    <g id="Group_4667" data-name="Group 4667">
+      <path id="Icon_open-person" data-name="Icon open-person" d="M2,0A1.148,1.148,0,0,0,1,1.25,1.148,1.148,0,0,0,2,2.5,1.148,1.148,0,0,0,3,1.25,1.148,1.148,0,0,0,2,0ZM.955,2.5A1,1,0,0,0,0,3.5V4H4V3.5a1,1,0,0,0-.955-1A1.4,1.4,0,0,1,2,3,1.4,1.4,0,0,1,.955,2.5Z" transform="translate(408 761)"/>
+      <path id="Icon_open-person-2" data-name="Icon open-person" d="M2,0A1.148,1.148,0,0,0,1,1.25,1.148,1.148,0,0,0,2,2.5,1.148,1.148,0,0,0,3,1.25,1.148,1.148,0,0,0,2,0ZM.955,2.5A1,1,0,0,0,0,3.5V4H4V3.5a1,1,0,0,0-.955-1A1.4,1.4,0,0,1,2,3,1.4,1.4,0,0,1,.955,2.5Z" transform="translate(412 765)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="150" viewBox="0 0 140 150">
+  <defs>
+    <filter id="Apple_Store" x="0" y="0" width="140" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#27ebc1" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Apple_Store)">
+    <path id="Apple_Store-2" data-name="Apple Store" d="M42.085,33.957c-.027-4.916,2.179-8.627,6.642-11.359-2.5-3.6-6.27-5.586-11.251-5.974C32.76,16.248,27.606,19.4,25.72,19.4c-1.993,0-6.562-2.639-10.149-2.639C8.159,16.878.281,22.718.281,34.6A33.638,33.638,0,0,0,2.194,45.477c1.7,4.916,7.837,16.972,14.24,16.771,3.348-.08,5.712-2.4,10.069-2.4,4.224,0,6.416,2.4,10.149,2.4,6.456-.094,12.009-11.051,13.629-15.981-8.661-4.112-8.2-12.056-8.2-12.31Zm-7.519-22A12.69,12.69,0,0,0,37.755,2.25a14.047,14.047,0,0,0-9.02,4.675,12.878,12.878,0,0,0-3.4,9.631c3.467.268,6.629-1.527,9.232-4.595Z" transform="translate(44.72 32.75)" fill="#27ebc1"/>
+  </g>
+</svg>

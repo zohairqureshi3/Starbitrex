@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2146" height="429" viewBox="0 0 2146 429">
+  <defs>
+    <filter id="Union_7" x="1900" y="202" width="246" height="227" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#5367c7" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_55" x="928" y="25" width="244" height="244" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-color="#5367c7" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Union_8" x="0" y="0" width="277" height="267" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18" result="blur-3"/>
+      <feFlood flood-color="#f93366" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4435" data-name="Group 4435" transform="translate(138 -3868)">
+    <g transform="matrix(1, 0, 0, 1, -138, 3868)" filter="url(#Union_7)">
+      <path id="Union_7-2" data-name="Union 7" d="M-1990-754a19,19,0,0,1,19-19,19,19,0,0,1,19,19,19,19,0,0,1-19,19A19,19,0,0,1-1990-754Zm50-50a38,38,0,0,1,38-38,38,38,0,0,1,38,38,38,38,0,0,1-38,38A38,38,0,0,1-1940-804Z" transform="translate(3950 1084)" fill="#5367c7"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -138, 3868)" filter="url(#Ellipse_55)">
+      <circle id="Ellipse_55-2" data-name="Ellipse 55" cx="62" cy="62" r="62" transform="translate(988 65)" fill="#5367c7"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -138, 3868)" filter="url(#Union_8)">
+      <path id="Union_8-2" data-name="Union 8" d="M-1990-753.5c0-38.937,30.668-70.5,68.5-70.5l.5,0a57.83,57.83,0,0,1,42-18,58,58,0,0,1,58,58,58.018,58.018,0,0,1-35.756,53.581c-9.287,27.6-34.766,47.419-64.745,47.419C-1959.332-683-1990-714.564-1990-753.5Z" transform="translate(2044 866)" fill="#f93366"/>
+    </g>
+  </g>
+</svg>

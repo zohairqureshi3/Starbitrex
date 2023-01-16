@@ -1,0 +1,14 @@
+{
+    "BTC":{
+        "prod": "",
+        "test": "testnet"
+    },
+    "ETH": {
+        "prod": "",
+        "test": "rinkeby"
+    },
+    "BCH": {
+        "prod": "",
+        "test": "testnet"
+    }
+}

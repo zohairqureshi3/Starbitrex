@@ -1,0 +1,3 @@
+export const GET_CURRENCY = 'GET_CURRENCY'
+export const TOGGLE_STATE = 'TOGGLE_STATE'
+
